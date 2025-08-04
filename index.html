@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f8ff;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #093FB4;
+            color: white;
+            padding: 0.5rem 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid white;
+            background: white;
+        }
+        nav {
+            display: flex;
+            gap: 2rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem 8rem;
+            border-bottom: 2px solid #ccc;
+            margin: auto;
+            background: #020024;
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 6%, rgba(8, 36, 139, 1) 23%, rgba(7, 66, 159, 1) 49%, rgba(0, 212, 255, 1) 100%);
+            color: white;
+        }
+        .hero-text {
+            margin-right: 2rem;
+            width: 70%;
+        }
+        .hero-text h1 {
+            padding: 0.5rem;
+            width: fit-content;
+        }
+        .hero-text p {
+            padding: 1rem;
+            margin-top: 1rem;
+            text-align: justify;
+            line-height: 1.6;
+            font-size: large;
+        }
+        .hero-profile {
+            text-align: center;
+        }
+        .hero-profile img {
+            width: 300px;
+            height: 250px;
+            border-radius: 25%;
+        }
+        .hero-profile h3 {
+            margin: 1rem 0 0.5rem;
+        }
+
+        /* Journey */
+        .journey-experience {
+            margin: 8rem auto 3rem;
+            border-bottom: 2px solid #ccc;
+            padding: 2rem 8rem;
+            background: 0046FF;
+        }
+
+        .journey-experience > div{ /* .journey and .experience */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5rem;
+        }
+
+        .journey-experience > div > .journey-text, .experience-text { /* .journey-text and .experience-text */
+            width: 70%;
+            line-height: 2rem;
+            font-size: large;
+        }
+
+        .journey-text p { 
+            text-align: justify; 
+        }
+        .experience-text p { 
+            text-align: justify; 
+        }
+
+        .journey-text h2 { text-align: right; }
+        .experience-text h2 { text-align: left; }
+
+        
+        .journey img, .experience img {
+            width: 300px;
+            height: 250px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            background: #007BFF;
+            color: white;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <a href="#journey">MY JOURNEY</a>
+            <a href="#experience">MY EXPERIENCE</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Software Development</h1>
+            <p>I’m a motivated and tech-savvy individual with a strong passion for IT. Over the past three years, I’ve gained solid experience in object-oriented programming, mainly using Java, and developed practical skills in SOA principles while working with webMethods Integration Server and API Gateway.</p>
+        </div>
+        <div class="hero-profile">
+            <img src="assets/img/profile-cover.jpg" alt="Foto Profil">
+            <h2>I am Irwansyah</h2>
+            <p></p>
+        </div>
+    </section>
+
+    <section class="journey-experience">
+        <div class="journey" id="journey">
+            <div>
+                <img src="assets/img/journey/my-journey.png" alt="Journey image">
+            </div>
+            <div class="journey-text">
+                <h2>My Journey</h2>
+                <p>
+                    I am grow up at ordinary family environment. financially, my family falls into the middle class category. luckily, i have a family that is open to about education, it makes me the first person to graduate bachelor's degre in both my mother's and father's family. 
+                    However, I don't have to miraculous intellegence but i have strong will to gain knowledge and it has given me great experience in information technology.
+                </p>
+            </div>
+        </div>
+        <div class="experience" id="experience">
+            <div class="experience-text">
+                <h2>My Experience</h2>
+                <p>In working sector, <br>
+                    I have work experience for almost tree years and it is still very young compared with my age, which is now nearly thirty. 
+                    I had a gloomy life due to narrow mindset about software development while performing some unethical practices in the education sector for two years. Finally, my mindset became open after following software development training and it made me a head start in thinking and knowledge.
+                    <br><br>
+                    The following is my actual work experience:
+                    
+                    <div class="experience-text-detail">
+                        <ul>
+                            <li>PT. Bank Mandiri TBK - Software Engineer (Agt 2023 - July 2025)</li>
+                            <li>PT Linov Prestasi - Junior Software Developer (Jan 2023 - July 2023)</li>
+                            <li>PT Lawencon Internasional - Training Full-stack Developer (Sep 2022 - Dec 2022)</li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+            <div>
+                <img src="assets/img/experience/my-experience.png" alt="Experience image">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Copyright &copy; 2025 Irwansyah. All rights reserved.
+    </footer>
+</body>
+</html>
