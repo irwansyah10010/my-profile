@@ -1,0 +1,121 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f0f8ff;
+        color: #333;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #093FB4;
+        color: white;
+        padding: 0.5rem 2rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid white;
+        background: white;
+    }
+    nav {
+        display: flex;
+        gap: 2rem;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    /* Hero Section */
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 8rem;
+        border-bottom: 2px solid #ccc;
+        margin: auto;
+        background: #020024;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 6%, rgba(8, 36, 139, 1) 23%, rgba(7, 66, 159, 1) 49%, rgba(0, 212, 255, 1) 100%);
+        color: white;
+    }
+    .hero-text {
+        margin-right: 2rem;
+        width: 70%;
+    }
+    .hero-text h1 {
+        padding: 0.5rem;
+        width: fit-content;
+    }
+    .hero-text p {
+        padding: 1rem;
+        margin-top: 1rem;
+        text-align: justify;
+        line-height: 1.6;
+        font-size: large;
+    }
+    .hero-profile {
+        text-align: center;
+    }
+    .hero-profile img {
+        width: 300px;
+        height: 250px;
+        border-radius: 25%;
+    }
+    .hero-profile h3 {
+        margin: 1rem 0 0.5rem;
+    }
+
+    /* Journey */
+    .journey-experience {
+        margin: 8rem auto 3rem;
+        border-bottom: 2px solid #ccc;
+        padding: 2rem 8rem;
+        background: 0046FF;
+    }
+
+    .journey-experience > div{ /* .journey and .experience */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+
+    .journey-experience > div > .journey-text, .experience-text { /* .journey-text and .experience-text */
+        width: 70%;
+        line-height: 2rem;
+        font-size: large;
+    }
+
+    .journey-text p { 
+        text-align: justify; 
+    }
+    .experience-text p { 
+        text-align: justify; 
+    }
+
+    .journey-text h2 { text-align: right; }
+    .experience-text h2 { text-align: left; }
+
+    
+    .journey img, .experience img {
+        width: 300px;
+        height: 250px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        text-align: center;
+        background: #007BFF;
+        color: white;
+        padding: 1rem;
+    }
