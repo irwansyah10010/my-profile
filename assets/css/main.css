@@ -1,121 +1,393 @@
+/* Default */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f8ff;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #093FB4;
+    color: white;
+    padding: 0.5rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: url(../img/logo/logo.png) no-repeat center;
+    background-size: 100% 100%;
+}
+nav {
+    display: flex;
+    gap: 2rem;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
 
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #f0f8ff;
-        color: #333;
-    }
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: #093FB4;
-        color: white;
-        padding: 0.5rem 2rem;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 8rem;
+    border-bottom: 2px solid #ccc;
+    margin: auto;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 6%, rgba(8, 36, 139, 1) 23%, rgba(7, 66, 159, 1) 49%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+}
+
+.profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 25%;
+    border: 2px solid white;
+    background: url(../img/profile.jpg) no-repeat center;
+    background-size: 100% 100%;
+    
+    margin: auto;
+
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+.profile:hover{
+    background: url(../img/profile-cover.jpg) no-repeat center;
+    background-size: 100% 100%;
+
+    transform: scale(1.1); /* memperbesar sedikit */
+}
+
+.hero-text {
+    width: 70%;
+}
+.hero-text h1 {
+    width: fit-content;
+    font-weight: lighter;
+}
+.hero-text p {
+    margin-top: 1rem;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: large;
+}
+.hero-profile {
+    text-align: center;
+}
+
+.hero-profile h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.hero-profile b{
+    font-size: x-large;
+}
+
+.btn-success {
+  background-color: #28a745;   /* warna hijau */
+  color: white;                /* warna teks */
+  padding: 10px 20px;          /* jarak dalam */
+  border: none;                /* hilangkan border default */
+  border-radius: 5px;          /* sudut melengkung */
+  font-size: 16px;             /* ukuran teks */
+  cursor: pointer;             /* ubah kursor menjadi tangan */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;   /* hijau lebih gelap */
+  transform: scale(1.05);      /* sedikit membesar */
+}
+
+/* Journey */
+.journey-experience {
+    margin: 8rem auto 3rem;
+    border-bottom: 2px solid #ccc;
+    padding: 2rem 8rem;
+    background: 0046FF;
+}
+
+.journey-experience > div{ /* .journey and .experience */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.journey-experience > div > .journey-text, .experience-text { /* .journey-text and .experience-text */
+    width: 70%;
+    line-height: 2rem;
+    font-size: large;
+}
+
+.journey-text p { 
+    text-align: justify; 
+}
+.experience-text p { 
+    text-align: justify; 
+}
+
+.journey-text h2 { text-align: right; }
+.experience-text h2 { text-align: left; }
+
+
+.journey img, .experience img {
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    background: #007BFF;
+    color: white;
+    padding: 1rem;
+}
+
+/* mobile */ 
+@media (max-width: 576px) {
     .logo {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        border: 2px solid white;
-        background: white;
+        width: 30px;
+        height: 30px;
     }
     nav {
-        display: flex;
-        gap: 2rem;
+        gap: 1rem;
     }
     nav a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    nav a:hover {
-        text-decoration: underline;
+        font-size: 0.9rem;
     }
 
     /* Hero Section */
     .hero {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 2rem 8rem;
-        border-bottom: 2px solid #ccc;
-        margin: auto;
-        background: #020024;
-        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 6%, rgba(8, 36, 139, 1) 23%, rgba(7, 66, 159, 1) 49%, rgba(0, 212, 255, 1) 100%);
-        color: white;
+        padding: 3rem 1rem;
+        flex-direction: column; 
     }
+
     .hero-text {
-        margin-right: 2rem;
-        width: 70%;
+        padding: 0rem 1rem;
+        margin-top: 50px;
+        order: 2;
+        width: 100%;
     }
-    .hero-text h1 {
-        padding: 0.5rem;
-        width: fit-content;
+
+    .hero-profile {
+        order: 1;
+        width: 100%;
     }
-    .hero-text p {
-        padding: 1rem;
-        margin-top: 1rem;
-        text-align: justify;
-        line-height: 1.6;
+
+    .hero-profile h2{
         font-size: large;
     }
-    .hero-profile {
-        text-align: center;
+
+    .hero-profile b{
+        font-size: large;
     }
-    .hero-profile img {
-        width: 300px;
-        height: 250px;
-        border-radius: 25%;
+
+    .profile{
+        width: 200px;
+        height: 200px;
+
+        margin: auto;
     }
-    .hero-profile h3 {
-        margin: 1rem 0 0.5rem;
+
+    .hero-text h1 {
+        margin: auto;
+        font-size: large;
     }
+    .hero-text p {
+        text-align: justify;
+        line-height: 1.6;
+        font-size: small;
+    }
+
+    
 
     /* Journey */
     .journey-experience {
-        margin: 8rem auto 3rem;
-        border-bottom: 2px solid #ccc;
-        padding: 2rem 8rem;
-        background: 0046FF;
+        width: 100%;
+        margin: 0;
+        padding: 5rem 0 2rem;
     }
 
     .journey-experience > div{ /* .journey and .experience */
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 5rem;
+        flex-direction: column;
+
+        margin-bottom: 2rem;
     }
 
-    .journey-experience > div > .journey-text, .experience-text { /* .journey-text and .experience-text */
-        width: 70%;
-        line-height: 2rem;
-        font-size: large;
+    .journey-experience > div > .journey-text { /* .journey-text and .experience-text */
+        line-height: 1rem;
+        font-size: small;
     }
 
-    .journey-text p { 
-        text-align: justify; 
-    }
-    .experience-text p { 
-        text-align: justify; 
+    .journey-experience > div > .experience-text { /* .journey-text and .experience-text */
+        order: 2;
+        line-height: 1rem;
+        font-size: small;
     }
 
-    .journey-text h2 { text-align: right; }
-    .experience-text h2 { text-align: left; }
+    .journey-text h2 { text-align: center; }
+    .experience-text h2 { text-align: center; }
 
-    
+
     .journey img, .experience img {
-        width: 300px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
         margin-bottom: 1rem;
     }
 
     footer {
-        text-align: center;
-        background: #007BFF;
-        color: white;
-        padding: 1rem;
+        padding: 0.5rem;
+        font-size: small;
     }
+}
+
+@media (min-width: 577px) and (max-width: 767px) { 
+    /* smartphone besar */ 
+        .logo {
+        width: 30px;
+        height: 30px;
+    }
+    nav {
+        gap: 1rem;
+    }
+    nav a {
+        font-size: 0.9rem;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 3rem 1rem;
+        flex-direction: column; 
+    }
+
+    .hero-text {
+        padding: 0rem 1rem;
+        margin-top: 50px;
+        order: 2;
+        width: 100%;
+    }
+
+    .hero-profile {
+        order: 1;
+        width: 100%;
+    }
+
+    .hero-profile h2{
+        font-size: x-large;
+    }
+
+    .hero-profile b{
+        font-size: x-large;
+    }
+
+    .profile{
+        width: 250px;
+        height: 250px;
+
+        margin: auto;
+    }
+
+    .hero-text h1 {
+        margin: auto;
+        font-size: x-large;
+    }
+    .hero-text p {
+        margin-top: 0;
+        text-align: justify;
+        line-height: 1.5rem;
+        font-size: medium;
+    }
+
+    /* Journey */
+    .journey-experience {
+        width: 100%;
+        margin: 0;
+        padding: 5rem 0 2rem;
+    }
+
+    .journey-experience > div{ /* .journey and .experience */
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: 2rem;
+    }
+
+    .journey-experience > div > .journey-text { /* .journey-text and .experience-text */
+        line-height: 1.2rem;
+        font-size: medium;
+    }
+
+    .journey-experience > div > .experience-text { /* .journey-text and .experience-text */
+        order: 2;
+        line-height: 1.2rem;
+        font-size: medium;
+    }
+
+    .journey-text h2 { text-align: center; }
+    .experience-text h2 { text-align: center; }
+
+
+    .journey img, .experience img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-bottom: 1.5rem;
+    }
+
+    footer {
+        padding: 0.5rem;
+        font-size: medium;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1199px) { 
+    /* tablet and laptop */ 
+    .hero {
+        padding: 2rem 5rem;
+    }
+    .profile{
+        width: 275px;
+        height: 275px;
+
+        margin: auto;
+    }
+
+    .journey-experience {
+        width: 80%;
+        margin: auto;
+        padding: 5rem 3rem 2rem;
+    }
+
+    .journey img, .experience img {
+        width: 275px;
+        height: 275px;
+        border-radius: 50%;
+        margin-bottom: 1.5rem;
+    }
+
+    .journey-experience > div > .journey-text, .experience-text { /* .journey-text and .experience-text */
+        width: 80%;
+    }
+
+    .journey-experience .journey-image{
+        padding: 3rem;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (min-width: 1200px) { /* desktop */ }
