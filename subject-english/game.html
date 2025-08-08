@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Table - English Sentence</title>
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <style>
+    main {
+        max-width: 600px;
+        margin: 3rem auto;
+        padding: 2rem;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        text-align: center;
+    }
+
+    label, input[type="number"] {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    input[type="number"],
+    input[type="text"] {
+        padding: 0.5rem;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        width: 80%;
+        margin-top: 0.5rem;
+    }
+
+    button {
+        background: #2563eb;
+        color: white;
+        border: none;
+        padding: 0.6rem 1.2rem;
+        margin-top: 1rem;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    button:hover:not(:disabled) {
+        background: #1e40af;
+    }
+
+    button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    #feedback {
+        margin-top: 1rem;
+        font-weight: bold;
+        font-size: 1.1rem;
+        min-height: 30px;
+        transition: all 0.3s ease;
+    }
+
+    .feedback-correct {
+        color: green;
+        animation: correctPulse 0.4s ease-in-out;
+    }
+
+    .feedback-wrong {
+        color: red;
+        animation: shake 0.3s;
+    }
+
+    @keyframes correctPulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+
+    </style>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="../assets/img/logo/logo.png" alt="Logo" />
+      </div>
+      <div class="subnav">
+        <ul>
+          <li><a href="../index.html#journey">MY JOURNEY</a></li>
+          <li><a href="../index.html#experience">MY EXPERIENCE</a></li>
+          <li><a href="index.html">HOME</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+    <main>
+    <h2>🎮 Game Tebak Arti Kalimat</h2>
+    <label for="totalInput">Jumlah soal:
+        <input type="number" id="totalInput" min="1" max="100" value="5">
+    </label>
+    <br>
+    <button id="startBtn">Mulai Game</button>
+
+    <div style="margin-top:20px">
+        <div id="questionArea" style="font-size: 1.2rem; margin-bottom: 10px;"></div>
+        <input type="text" id="answerInput" placeholder="Masukkan arti..." disabled>
+        <br>
+        <button id="submitAnswer" disabled>Jawab</button>
+
+        <div id="feedback"></div>
+        <div id="score" style="margin-top:10px;"></div>
+    </div>
+    </main>
+
+  <footer>
+    Copyright &copy; 2025 Irwansyah. All rights reserved.
+  </footer>
+<script>
+  let questions = [];
+  let usedIndexes = new Set();
+  let currentIndex = -1;
+  let correctCount = 0;
+  let wrongCount = 0;
+  const maxWrong = 3;
+  let totalQuestions = 5; // akan diset ulang oleh input
+
+  let isGameLoaded = false;
+
+  // Ambil data CSV dulu
+  fetch('http://127.0.0.1:5500/assets/document/english-sentence.csv')
+    .then(res => res.text())
+    .then(text => {
+      const rows = text.trim().split('\n').map(r => r.replace('\r', '').split(';'));
+      questions = rows.slice(1); // Buang header
+      isGameLoaded = true;
+    });
+
+  document.getElementById('startBtn').addEventListener('click', () => {
+    if (!isGameLoaded) {
+      alert("Mohon tunggu, data belum dimuat.");
+      return;
+    }
+
+    totalQuestions = parseInt(document.getElementById('totalInput').value);
+    if (isNaN(totalQuestions) || totalQuestions < 1) {
+      alert("Masukkan jumlah soal yang valid!");
+      return;
+    }
+
+    // Reset semua nilai
+    usedIndexes.clear();
+    correctCount = 0;
+    wrongCount = 0;
+    document.getElementById('answerInput').disabled = false;
+    document.getElementById('submitAnswer').disabled = false;
+    startGame();
+  });
+
+  function startGame() {
+    document.getElementById('feedback').textContent = '';
+    document.getElementById('score').textContent = '';
+    nextQuestion();
+  }
+
+  function nextQuestion() {
+    if (wrongCount >= maxWrong) {
+      endGame("❌ Kamu sudah salah 3 kali. Permainan selesai.");
+      return;
+    }
+    if (usedIndexes.size >= totalQuestions || usedIndexes.size >= questions.length) {
+      endGame("🎉 Selamat! Kamu sudah menyelesaikan semua soal.");
+      return;
+    }
+
+    do {
+      currentIndex = Math.floor(Math.random() * questions.length);
+    } while (usedIndexes.has(currentIndex));
+
+    usedIndexes.add(currentIndex);
+    const question = questions[currentIndex][1]; // kolom Bahasa Inggris
+    document.getElementById('questionArea').textContent = `Apa arti dari: "${question}"`;
+    document.getElementById('answerInput').value = '';
+    document.getElementById('answerInput').focus();
+  }
+
+  document.getElementById('submitAnswer').addEventListener('click', () => {
+    const userAnswer = document.getElementById('answerInput').value.trim().toLowerCase();
+    const correctAnswer = questions[currentIndex][2].trim().toLowerCase(); // kolom artinya
+
+    if (userAnswer === correctAnswer) {
+      correctCount++;
+      document.getElementById('feedback').textContent = "✅ Benar!";
+    } else {
+      wrongCount++;
+      document.getElementById('feedback').textContent = `❌ Salah! Jawaban benar: ${questions[currentIndex][2]}`;
+    }
+
+    document.getElementById('score').textContent =
+      `Benar: ${correctCount}, Salah: ${wrongCount} (max salah: ${maxWrong})`;
+
+    setTimeout(() => {
+      document.getElementById('feedback').textContent = '';
+      nextQuestion();
+    }, 1000);
+  });
+
+  function endGame(message) {
+    document.getElementById('questionArea').textContent = message;
+    document.getElementById('submitAnswer').disabled = true;
+    document.getElementById('answerInput').disabled = true;
+  }
+</script>
+</body>
+</html>

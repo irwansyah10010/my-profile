@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Table - English Sentence</title>
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <style>
+    /* Opsional: tambahkan sedikit styling tabel jika belum diatur */
+    table {
+      width: 100%;
+      margin-top: 1rem;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    #tableContainer {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    #tableContainer h2 {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="../assets/img/logo/logo.png" alt="Logo" />
+      </div>
+      <div class="subnav">
+        <ul>
+          <li><a href="../index.html#journey">MY JOURNEY</a></li>
+          <li><a href="../index.html#experience">MY EXPERIENCE</a></li>
+          <li><a href="game.html">GAME</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="tableContainer">
+      <h2>Data Table</h2>
+      <p>This table is generated from a CSV file.</p>
+      <input type="text" id="searchInput" placeholder="Cari..." style="margin-bottom:10px; padding:5px;">
+      <div id="pagination" style="margin-top:10px;"></div>
+    </div>
+  </main>
+
+  <footer>
+    Copyright &copy; 2025 Irwansyah. All rights reserved.
+  </footer>
+
+
+<script>
+  let currentPage = 1;
+  const rowsPerPage = 10;
+  let globalData = [];
+  let filteredData = [];
+
+  fetch('http://127.0.0.1:5500/assets/document/english-sentence.csv')
+    .then(response => response.text())
+    .then(text => {
+      globalData = text.trim().split('\n').map(row => row.replace('\r', '').split(';'));
+      filteredData = [...globalData]; // awalnya tidak difilter
+      render();
+    });
+
+  function render() {
+    displayTablePage(filteredData, currentPage);
+    setupPagination(filteredData);
+  }
+
+  function displayTablePage(data, page) {
+    const container = document.getElementById('tableContainer');
+    container.querySelectorAll('table').forEach(t => t.remove());
+
+    const start = (page - 1) * rowsPerPage + 1; // +1 untuk skip header
+    const end = start + rowsPerPage;
+    const paginatedData = data.slice(start, end);
+
+    const table = document.createElement('table');
+    table.border = '1';
+    table.style.borderCollapse = 'collapse';
+    table.style.width = '100%';
+
+    // Tampilkan header (baris pertama)
+    const headerRow = document.createElement('tr');
+    data[0].forEach(cell => {
+      const th = document.createElement('th');
+      th.textContent = cell.trim();
+      th.style.padding = '8px';
+      th.style.backgroundColor = '#f2f2f2';
+      headerRow.appendChild(th);
+    });
+    table.appendChild(headerRow);
+
+    paginatedData.forEach(row => {
+      const tr = document.createElement('tr');
+      row.forEach(cell => {
+        const td = document.createElement('td');
+        td.textContent = cell.trim();
+        td.style.padding = '8px';
+        tr.appendChild(td);
+      });
+      table.appendChild(tr);
+    });
+
+    container.insertBefore(table, document.getElementById('pagination'));
+  }
+
+  function setupPagination(data) {
+    const pagination = document.getElementById('pagination');
+    pagination.innerHTML = '';
+
+    const totalPages = Math.ceil((data.length - 1) / rowsPerPage);
+
+    // Tombol Previous
+    const prevBtn = document.createElement('button');
+    prevBtn.textContent = 'Previous';
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.style.margin = '0 5px';
+    prevBtn.addEventListener('click', () => {
+      if (currentPage > 1) {
+        currentPage--;
+        render();
+      }
+    });
+    pagination.appendChild(prevBtn);
+
+    // Tombol page number
+    for (let i = 1; i <= totalPages; i++) {
+      const btn = document.createElement('button');
+      btn.textContent = i;
+      btn.style.margin = '0 2px';
+      btn.style.fontWeight = (i === currentPage) ? 'bold' : 'normal';
+      btn.style.backgroundColor = (i === currentPage) ? '#007bff' : '';
+      btn.style.color = (i === currentPage) ? '#fff' : '';
+      btn.addEventListener('click', () => {
+        currentPage = i;
+        render();
+      });
+      pagination.appendChild(btn);
+    }
+
+    // Tombol Next
+    const nextBtn = document.createElement('button');
+    nextBtn.textContent = 'Next';
+    nextBtn.disabled = currentPage === totalPages;
+    nextBtn.style.margin = '0 5px';
+    nextBtn.addEventListener('click', () => {
+      if (currentPage < totalPages) {
+        currentPage++;
+        render();
+      }
+    });
+    pagination.appendChild(nextBtn);
+  }
+
+  // Fungsi Filter
+  document.getElementById('searchInput').addEventListener('input', function () {
+    const keyword = this.value.toLowerCase();
+
+    filteredData = globalData.filter((row, index) => {
+      if (index === 0) return true; // header tetap ditampilkan
+      return row.some(cell => cell.toLowerCase().includes(keyword));
+    });
+
+    currentPage = 1; // reset ke halaman pertama saat mencari
+    render();
+  });
+</script>
+
+</body>
+</html>
