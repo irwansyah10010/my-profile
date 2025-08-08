@@ -69,7 +69,7 @@
   let globalData = [];
   let filteredData = [];
 
-  fetch('http://127.0.0.1:5500/assets/document/english-sentence.csv')
+  fetch('https://irwansyah10010.github.io/my-profile/assets/document/english-sentence.csv')
     .then(response => response.text())
     .then(text => {
       globalData = text.trim().split('\n').map(row => row.replace('\r', '').split(';'));

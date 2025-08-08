@@ -135,7 +135,8 @@
   let isGameLoaded = false;
 
   // Ambil data CSV dulu
-  fetch('http://127.0.0.1:5500/assets/document/english-sentence.csv')
+  // server https://irwansyah10010.github.io/my-profile/
+  fetch('https://irwansyah10010.github.io/my-profile/assets/document/english-sentence.csv')
     .then(res => res.text())
     .then(text => {
       const rows = text.trim().split('\n').map(r => r.replace('\r', '').split(';'));
