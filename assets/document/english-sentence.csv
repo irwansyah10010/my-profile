@@ -19,26 +19,26 @@ No;Bahasa Inggris;Artinya;Jenis;Catatan;kalimat
 18;Anywhere;Di Manapun;adv;;I can live anywhere
 19;Arrogant;Sombong;adj;;They have an arrogant attitude
 20;Autumn;Musim Gugur;noun;;We are approaching autumn
-21;Available;Tersedia;often;;
-22;Average;Rata-Rata;often;;
-23;Bathroom;Kamar Mandi;often;;
-24;Behavior;Tingkah Laku;often;;
-25;Behind;Dibelakang;often;;
-26;Believe;Percaya;often;;
-27;Beside;Di Samping;often;;
-28;Big;Besar;often;;
-29;Black & White;Hitam & Putih;often;;
-30;Blind;Tunanetra;often;;
-31;Blood;Darah;often;;
-32;Brain;Otak;often;;
-33;Bread;Roti;often;;
-34;Breakfast;Sarapan Pagi;often;;
-35;Bridge;Jembatan;often;;
-36;Brother;Saudara;often;untuk Laki-Laki;
-37;Candle;Lilin;often;;
-38;Candy;Permen;often;;
-39;Conversation;Percakapan;often;;
-40;Challenge;Tantangan;often;;
+21;Available;Tersedia;adj;;This stuff is available now
+22;Average;Rata-Rata;adj;;The average height of asian people is 170 cm
+23;Bathroom;Kamar Mandi;noun;;This bathroom is very smelly
+24;Behavior;Tingkah Laku;noun;;This object has strange behavior
+25;Behind;Dibelakang;prepos;;"At school,  I sit behind her "
+26;Believe;Percaya;verb;;"After the incident, I believe that you are my best friend"
+27;Beside;Di Samping;prepos;;I will always be beside you when no matter what happen
+28;Big;Besar;adj;;This bag is very big
+29;Black & White;Hitam & Putih;adj;;Your skin is black but it still looks sweet
+30;Blind;Tunanetra;adj;;I am not blind
+31;Blood;Darah;noun;;My blood comes from lord's clan
+32;Brain;Otak;noun;;the size of brain does not determine our intelligence
+33;Bread;Roti;noun;;Have you eaten the bread?
+34;Breakfast;Sarapan Pagi;noun;;Did you have breakfast?
+35;Bridge;Jembatan;noun;;I just passed the bridge
+36;Brother;Saudara;noun;untuk Laki-Laki;I have a brother and a sister
+37;Candle;Lilin;noun;;I light a candle when power outage
+38;Candy;Permen;noun;;This candy is very sweet
+39;Conversation;Percakapan;noun;;I understand enough about conversations in information technology
+40;Challenge;Tantangan;noun;;"The game was hard, but i enjoyed it as a challange"
 41;Chance;Peluang;often;;
 42;Change;Mengubah;often;;
 43;Childhood;Masa Kecil;often;;
@@ -723,3 +723,4 @@ No;Bahasa Inggris;Artinya;Jenis;Catatan;kalimat
 722;rarely;Jarang;adv;;
 723;attitude;sikap;verb;;
 724;approach;Mendekati;prepos;;
+725;Incident;Kejadian;noun;;
