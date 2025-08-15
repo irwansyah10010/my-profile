@@ -100,11 +100,12 @@ nav a:hover {
 .hero-text p {
     margin-top: 1rem;
     text-align: justify;
-    line-height: 1.6;
+    line-height: 2rem;
     font-size: large;
 }
 .hero-profile {
     text-align: center;
+    line-height: 1rem;
 }
 
 .hero-profile h3 {
@@ -142,7 +143,7 @@ nav a:hover {
 .journey-experience > div{ /* .journey and .experience */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 5rem;
 }
 
@@ -163,13 +164,41 @@ nav a:hover {
 .experience-text h2 { text-align: left; }
 
 
-.journey img, .experience img {
+.journey-image img {
     width: 300px;
     height: 250px;
     border-radius: 50%;
     margin-bottom: 1rem;
 }
 
+/* .journey-image{
+    width: 25%;
+    height: auto;
+    display: flex;
+
+    align-items: start;
+} */
+
+.experience-list > div {
+    display: flex;
+
+    margin-top: 0px;
+    margin-bottom: 1.5rem;
+}
+
+.experience-detail > img {
+    width: 300px;
+    height: 250px;
+
+    margin-right: 1rem;
+}
+
+.company-header{
+    margin-top: 1rem;
+    line-height: 0.5rem;
+}
+
+/* footer */
 footer {
     text-align: center;
     background: #007BFF;
@@ -257,8 +286,6 @@ footer {
         font-size: small;
     }
 
-    
-
     /* Journey */
     .journey-experience {
         width: 100%;
@@ -269,6 +296,8 @@ footer {
     .journey-experience > div{ /* .journey and .experience */
         display: flex;
         flex-direction: column;
+
+        align-items: center;
 
         margin-bottom: 2rem;
     }
@@ -288,12 +317,41 @@ footer {
     .experience-text h2 { text-align: center; }
 
 
-    .journey img, .experience img {
+    .journey-image img {
         width: 200px;
         height: 200px;
         border-radius: 50%;
         margin-bottom: 1rem;
     }
+
+    .experience-list > div {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 0px;
+        margin-bottom: 1.5rem;
+    }
+
+    .experience-detail > img {
+        width: 250px;
+        height: 175px;
+
+
+        margin: 0.5rem auto;
+    }
+
+    .experience-company{
+        width: 250px;
+
+        margin: 0rem auto;
+    }
+
+    .company-header{
+        margin-top: 1rem;
+        line-height: 0.5rem;
+    }
+
+    /* Footer */
 
     footer {
         padding: 0.5rem;
@@ -325,6 +383,7 @@ footer {
         margin-top: 50px;
         order: 2;
         width: 100%;
+        line-height: 3rem;
     }
 
     .hero-profile {
@@ -369,6 +428,8 @@ footer {
         display: flex;
         flex-direction: column;
 
+        align-items: center;
+
         margin-bottom: 2rem;
     }
 
@@ -387,13 +448,42 @@ footer {
     .experience-text h2 { text-align: center; }
 
 
-    .journey img, .experience img {
+    .journey-image img {
         width: 250px;
         height: 250px;
         border-radius: 50%;
         margin-bottom: 1.5rem;
     }
 
+    
+    .experience-list > div {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 0px;
+        margin-bottom: 1.5rem;
+    }
+
+    .experience-detail > img {
+        width: 275px;
+        height: 225px;
+
+
+        margin: 0.5rem auto;
+    }
+
+    .experience-company{
+        width: 275px;
+
+        margin: 0rem auto;
+    }
+
+    .company-header{
+        margin-top: 1rem;
+        line-height: 0.5rem;
+    }
+
+    /* footer */
     footer {
         padding: 0.5rem;
         font-size: medium;
@@ -413,12 +503,12 @@ footer {
     }
 
     .journey-experience {
-        width: 80%;
+        /* width: 100%; */
         margin: auto;
-        padding: 5rem 3rem 2rem;
+        padding: 5rem 1rem 2rem;
     }
 
-    .journey img, .experience img {
+    .journey-image img {
         width: 275px;
         height: 275px;
         border-radius: 50%;
@@ -430,9 +520,38 @@ footer {
     }
 
     .journey-experience .journey-image{
-        padding: 3rem;
+        padding: 1.5rem;
         box-sizing: border-box;
     }
+
+    /* .journey-image{
+        width: 25%;
+        height: auto;
+        display: flex;
+
+        align-items: start;
+    } */
+
+    .experience-list > div {
+        display: flex;
+
+        margin-top: 0px;
+        margin-bottom: 1.5rem;
+    }
+
+    .experience-detail > img {
+        width: 300px;
+        height: 250px;
+
+        margin-right: 1rem;
+    }
+
+    .company-header{
+        margin-top: 1rem;
+        line-height: 0.5rem;
+    }
+
+    /* footer */
 
 }
 
