@@ -39,36 +39,36 @@ No;Bahasa Inggris;Artinya;Jenis;Catatan;kalimat
 38;Candy;Permen;noun;;This candy is very sweet
 39;Conversation;Percakapan;noun;;I understand enough about conversations in information technology
 40;Challenge;Tantangan;noun;;"The game was hard, but i enjoyed it as a challange"
-41;Chance;Peluang;often;;
-42;Change;Mengubah;often;;
-43;Childhood;Masa Kecil;often;;
-44;Church;Gereja;often;;
-45;Color;Warna;often;;
-46;Company;Perusahaan;often;;
-47;Confident;Percaya Diri;often;;
-48;Congratulations!;Selamat!;often;;
-49;Country;Negara;often;;
-50;Crazy;Gila;often;;
-51;Cry;Menangis;often;;
-52;Curious;Penasaran;often;;
-53;Cute;Imut;often;;
-54;Dangerous;Berbahaya;often;;
-55;Dark;Gelap;often;;
-56;Date;Tanggal;often;;
-57;Daughter;Anak Perempuan;often;;
-58;Day;Hari;often;;
-59;Different;Berbeda;often;;
-60;Difficult;Sulit;often;;
-61;Dirty;Kotor;often;;
-62;Disappear;Menghilang;often;;
-63;Disaster;Bencana;often;;
-64;Disgusting;Menjijikan;often;;
-65;Distance;Jarak;often;;
-66;Door;Pintu;often;;
-67;Dream;Mimpi;often;;
-68;Earth;Bumi;often;;
-69;Education;Pendidikan;often;;
-70;Enough;Cukup;often;;
+41;Chance;Peluang;noun;;I have chance to work overseas
+42;Change;Mengubah;verb;;I am trying to change for the better
+43;Childhood;Masa Kecil;noun;;What was your chilhood like?
+44;Church;Gereja;noun;;My home is near santa maria church
+45;Color;Warna;noun;;I don't know why i like the blue color? maybe blue is similar to the beautiful sky
+46;Company;Perusahaan;noun;;I have work experience in a few companies
+47;Confident;Percaya Diri;adj;;I have to be confident when I present the project developing software app
+48;Congratulations!;Selamat!;noun;;"Congratulation, irwan, on your wedding today. Hopefully the marrige brings you happiness always"
+49;Country;Negara;noun;;Indonesia is a country has strange regulations which give advantages to goverment officials and rich people
+50;Crazy;Gila;adj;;I feel crazy when i dont get a job for a few weeks
+51;Cry;Menangis;verb;;I won't cry about losing my job
+52;Curious;Penasaran;adj;;"I am curious, how do people learn English quickly?"
+53;Cute;Imut;adj;;I have a cute kitten
+54;Dangerous;Berbahaya;adj;;"Be careful of that person, that person is very dangerous"
+55;Dark;Gelap;adj;;This dark room can only seen by dirty people
+56;Date;Tanggal;noun;;The 29th date is special for my wife
+57;Daughter;Anak Perempuan;noun;;I hope my second child will be daughter
+58;Day;Hari;noun;;The day after tomorrow is my day off
+59;Different;Berbeda;adj;;I asked different people about how they survived the economic crisis?
+60;Difficult;Sulit;adj;;I can't answer difficult questions
+61;Dirty;Kotor;adj;;My shirt looks dirty
+62;Disappear;Menghilang;verb;;I will disappear from crowd
+63;Disaster;Bencana;noun;;The earthquake is a natural disaster that is unpredictable
+64;Disgusting;Menjijikan;adj;;Something yo do is disgusting
+65;Distance;Jarak;noun;;The distance between my home and your home is very long
+66;Door;Pintu;noun;;Why that those doors always open after the rain?
+67;Dream;Mimpi;noun;;I have a dream to work overseas
+68;Earth;Bumi;noun;;"This earth is old, and we should save it together"
+69;Education;Pendidikan;noun;;Education is a part of life that is very important for a better life
+70;Enough;Cukup;adj;;This place doesn't have enough air
 71;Environment;Lingkungan;often;;
 72;Evening;Malam Hari;often;;
 73;Every;Setiap;often;;
@@ -724,3 +724,4 @@ No;Bahasa Inggris;Artinya;Jenis;Catatan;kalimat
 723;attitude;sikap;verb;;
 724;approach;Mendekati;prepos;;
 725;Incident;Kejadian;noun;;
+;boys;anak laki-laki;noun;;
