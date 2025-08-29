@@ -67,7 +67,8 @@ nav a:hover {
     border-bottom: 2px solid #ccc;
     margin: auto;
     background: #020024;
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 6%, rgba(8, 36, 139, 1) 23%, rgba(7, 66, 159, 1) 49%, rgba(0, 212, 255, 1) 100%);
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 6%, rgba(8, 36, 139, 1) 23%, rgba(7, 66, 159, 1) 49%, rgba(0, 212, 255, 1) 100%); */
+    background: url(../img/header.png) no-repeat bottom;
     color: white;
 }
 
@@ -84,7 +85,7 @@ nav a:hover {
     transition: transform 0.5s ease, filter 0.5s ease;
 }
 .profile:hover{
-    background: url(../img/profile-cover.jpg) no-repeat center;
+    background: url(../img/profile-cover.jpg) no-repeat bottom;
     background-size: 100% 100%;
 
     transform: scale(1.1); /* memperbesar sedikit */
@@ -144,6 +145,10 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
+    /* margin-bottom: 5rem; */
+}
+
+.journey-experience > .journey,.experience-list{
     margin-bottom: 5rem;
 }
 
@@ -178,6 +183,11 @@ nav a:hover {
 
     align-items: start;
 } */
+
+.experience-list{
+    display: flex;
+    flex-direction: column;
+}
 
 .experience-list > div {
     display: flex;
@@ -298,7 +308,9 @@ footer {
         flex-direction: column;
 
         align-items: center;
+    }
 
+    .journey-experience > .journey,.experience-list{
         margin-bottom: 2rem;
     }
 
@@ -429,7 +441,9 @@ footer {
         flex-direction: column;
 
         align-items: center;
+    }
 
+    .journey-experience > .journey,.experience-list{
         margin-bottom: 2rem;
     }
 
@@ -454,7 +468,6 @@ footer {
         border-radius: 50%;
         margin-bottom: 1.5rem;
     }
-
     
     .experience-list > div {
         display: flex;
