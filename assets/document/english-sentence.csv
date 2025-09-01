@@ -188,17 +188,17 @@ No;Bahasa Inggris;Artinya;Jenis;Catatan;kalimat
 187;Pocket;Saku;noun;;My pocket only contain a wallet 
 188;Poem;Sajak;noun;;This poem is truly poetic
 189;Punishment;Hukuman;noun;;I hope the corruptors are given a serious punisment
-190;Purpose;Tujuan;often;;This life has a purpose
-191;Question;Pertanyaan;often;;
-192;Rain;Hujan;often;;
-193;Really;Benar-Benar;often;;
-194;Remember;Ingat;often;;
-195;Respect;Menghormati;often;;
-196;Responsible;Bertanggung Jawab;often;;
-197;Rice;Nasi;often;;
-198;Rich;Kaya;often;;
-199;Reason;Alasan;often;;
-200;River;Sungai;often;;
+190;Purpose;Tujuan;noun;29-agt-2025;This life has a purpose
+191;Question;Pertanyaan;noun;;I have one question for you.
+192;Rain;Hujan;often;;The rainbow will be seen after the rain  
+193;Really;Benar-Benar;often;;I am really happy after I am got the job offer
+194;Remember;Ingat;verb;;"Now, I remember your attitude toward me"
+195;Respect;Menghormati;often;;"I respect my ex-leader, he gave me a lot support"
+196;Responsible;Bertanggung Jawab;adj;;I am responsible for what did I
+197;Rice;Nasi;often;;"evidently, this fried rice is very spicy"
+198;Rich;Kaya;often;;Everybody wants to be a rich people but only some people make the effort
+199;Reason;Alasan;often;;You need to have strong reasons to change your life
+200;River;Sungai;often;;The Cisadane is one of the river in the tangerang
 201;Roof;Atap;often;;
 202;Schedule;Jadwal;often;;
 203;Secret;Rahasia;often;;
@@ -732,3 +732,6 @@ No;Bahasa Inggris;Artinya;Jenis;Catatan;kalimat
 731;seldom;Jarang;;;
 732;Evidence;Bukti;;;
 733;surroundings;Linkungan;noun;;
+734;evidently;ternyata;;;
+735;thus;hingga;;;
+736;toward;terhadap;;;
