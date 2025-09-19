@@ -1,0 +1,43 @@
+english;artinya;jenis_adverb
+quickly;dengan cepat;manner
+slowly;dengan lambat;manner
+carefully;dengan hati-hati;manner
+badly;dengan buruk;manner
+loudly;dengan keras;manner
+quietly;dengan pelan;manner
+here;di sini;place
+there;di sana;place
+everywhere;di mana-mana;place
+nowhere;tidak di mana pun;place
+outside;di luar;place
+inside;di dalam;place
+abroad;di luar negeri;place
+now;sekarang;time
+then;lalu;time
+soon;segera;time
+already;sudah;time
+still;masih;time
+just;baru saja;time
+yesterday;kemarin;time
+today;hari ini;time
+tomorrow;besok;time
+always;selalu;frequency
+usually;biasanya;frequency
+often;sering;frequency
+sometimes;kadang-kadang;frequency
+seldom;jarang;frequency
+rarely;jarang sekali;frequency
+never;tidak pernah;frequency
+very;sangat;degree
+too;terlalu;degree
+enough;cukup;degree
+almost;hampir;degree
+quite;cukup/lumayan;degree
+extremely;sangat sekali;degree
+nearly;hampir;degree
+surely;pasti;certainty
+definitely;benar-benar;certainty
+certainly;tentu saja;certainty
+probably;mungkin;certainty
+perhaps;barangkali;certainty
+maybe;mungkin;certainty
