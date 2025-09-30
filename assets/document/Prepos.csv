@@ -6,30 +6,30 @@ no;english;artinya;jenis_prepos;;Kalimat;;;;;;;;;;
 5;above;di atas (lebih tinggi);tempat;;This building is placed above the underground station;;;;;;;;on;on Monday;pada hari Senin
 6;below;di bawah (lebih rendah);tempat;;"where do you take the shoe?, I take the shoe below the chair";;;;;;;;on;on July 4th;pada tanggal tertentu (4 Juli)
 7;over;di atas (melewati/menutupi);tempat/arah;;try to look for them above the hill;;;;;;;;on;on the weekend;"pada akhir pekan (US English, UK biasa pakai in)"
-8;between;di antara (2 benda);tempat;;I have to choose between Islamic boarding school or public middle school;;;;;;;;in;in July;pada bulan Juli
-9;among;di antara (lebih dari 2 benda);tempat;;"After graduate high school, I decide to study at university and I choose among famous university or cheap university";;;;;;;;in;in 2025;pada tahun 2025
-10;behind;di belakang;tempat;;"Where do you put your bag?,  I put my bag behind building pillars";;;;;;;;in;in the morning;pada pagi hari
-11;in front of;di depan;tempat;;;;;;;;;;in;in the 21st century;pada abad ke-21
-12;next to;di samping;tempat;;;;;;;;;;;;
-13;near;dekat;tempat;;;;;;;;;;preposition;contoh kalimat;artinya
-14;inside;di dalam;tempat;;;;;;;;;;under;The cat is under the table.;Kucing itu berada di bawah meja (menempel/tertutupi).
-15;outside;di luar;tempat;;;;;;;;;;on;The book is on the table.;Buku itu berada di atas meja (menempel di permukaan).
+8;between;di antara (2 benda);tempat;20/09/2025;I have to choose between Islamic boarding school or public middle school;;;;;;;;in;in July;pada bulan Juli
+9;among;di antara (lebih dari 2 benda);tempat;v setelah after pk ing;"After graduating from high school, I decided to study at a university and I choose among various types of universities";;;;;;;;in;in 2025;pada tahun 2025
+10;behind;di belakang;tempat;;"Where do you put your bag?,  I put my bag behind the building pillars";;;;;;;;in;in the morning;pada pagi hari
+11;in front of;di depan;tempat;;"in front of mosquis, there is takjil for breaking the fast";;;;;;;;in;in the 21st century;pada abad ke-21
+12;next to;di samping;tempat;;I put my sandals next to rubbish bin;;;;;;;;;;
+13;near;dekat;tempat;;can I sit near you?;;;;;;;;preposition;contoh kalimat;artinya
+14;inside;di dalam;tempat;;"please, stay inside";;;;;;;;under;The cat is under the table.;Kucing itu berada di bawah meja (menempel/tertutupi).
+15;outside;di luar;tempat;23/09/2025; is it raining outside?;;;;;;;;on;The book is on the table.;Buku itu berada di atas meja (menempel di permukaan).
 16;into;ke dalam;arah;;;;;;;;;;above;The lamp is above the table.;"Lampu itu berada di atas meja (lebih tinggi, tidak menempel)."
 17;onto;ke atas;arah;;;;;;;;;;below;The temperature is below zero.;Suhu berada di bawah nol (lebih rendah).
 18;across;melintasi;arah;;;;;;;;;;;;
-19;along;sepanjang;arah;;;;;;;;;;;;
-20;toward(s);menuju;arah;;;;;;;;;;;;
-21;around;mengelilingi;tempat/arah;;;;;;;;;;;;
-22;through;melalui;tempat/arah;;;;;;;;;;;;
-23;by;sebelum (waktu) / dengan (cara);waktu/cara;;;;;;;;;;;;
+19;along;sepanjang;arah;;;;;;;;;;preposition;contoh kalimat;artinya
+20;toward(s);menuju;arah;;;;;;;;;;in front of;There is a fountain in front of the library.;Di depan perpustakaan ada air mancur.
+21;around;mengelilingi;tempat/arah;;;;;;;;;;behind;The car is parked behind the house.;Mobil itu diparkir di belakang rumah.
+22;through;melalui;tempat/arah;;;;;;;;;;next to;She sat next to me on the bus.;Dia duduk di sampingku di bus.
+23;by;sebelum (waktu) / dengan (cara);waktu/cara;;;;;;;;;;near;There is a shop near the station.;Ada sebuah toko dekat stasiun.
 24;before;sebelum;waktu;;;;;;;;;;;;
 25;after;setelah;waktu;;;;;;;;;;;;
 26;since;sejak;waktu;;;;;;;;;;;;
-27;for;selama / untuk;waktu/cara;;;;;;;;;;;;
-28;during;selama (periode tertentu);waktu;;;;;;;;;;;;
-29;until/till;sampai;waktu;;;;;;;;;;;;
-30;from;dari;waktu/arah;;;;;;;;;;;;
-31;to;sampai ke;arah/waktu;;;;;;;;;;;;
+27;for;selama / untuk;waktu/cara;;;;;;;;;;into ? ke dalam (fokus pada arah masuk).;;
+28;during;selama (periode tertentu);waktu;;;;;;;;;;onto ? ke atas (fokus pada arah naik/menempel di atas sesuatu).;;
+29;until/till;sampai;waktu;;;;;;;;;;across ? melintasi/menyeberangi.;;
+30;from;dari;waktu/arah;;;;;;;;;;"along ? sepanjang (searah dengan sesuatu, misalnya jalan/pantai).";;
+31;to;sampai ke;arah/waktu;;;;;;;;;;toward(s) ? menuju ke arah sesuatu (tanpa harus sampai).;;
 32;with;dengan;cara/alat;;;;;;;;;;;;
 33;about;tentang;umum;;;;;;;;;;;;
 34;of; dari / milik;umum;;;;;;;;;;;;
