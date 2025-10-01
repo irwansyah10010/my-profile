@@ -96,7 +96,7 @@ nav a:hover {
 }
 .hero-text h1 {
     width: fit-content;
-    font-weight: lighter;
+    font-weight: bold;
 }
 .hero-text p {
     margin-top: 1rem;

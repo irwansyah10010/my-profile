@@ -6,7 +6,6 @@
   <title>Data Table - English Sentence</title>
   <link rel="stylesheet" href="../assets/css/main.css" />
   <style>
-    /* Opsional: tambahkan sedikit styling tabel jika belum diatur */
     table {
       width: 100%;
       margin-top: 1rem;
@@ -16,6 +15,7 @@
     th, td {
       border: 1px solid #ddd;
       padding: 8px;
+      text-align: left;
     }
 
     th {
@@ -30,6 +30,13 @@
 
     #tableContainer h2 {
       margin-bottom: 0.5rem;
+    }
+
+    /* efek gelap (blur/blackout) */
+    .hidden-col {
+      color: transparent !important;
+      text-shadow: 0 0 10px #000;
+      user-select: none;
     }
 
     @media (max-width: 700px) {
@@ -51,8 +58,8 @@
       </div>
       <div class="subnav">
         <ul>
-          <li><a href="../index.html#journey">ENGLISH SENTENCES</a></li>
-          <li><a href="index.html">GUESS THE WORD</a></li>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="game.html">GUESS THE WORD</a></li>
         </ul>
       </div>
     </nav>
@@ -62,7 +69,15 @@
     <div id="tableContainer">
       <h2>Data Table</h2>
       <p>This table is generated from a CSV file.</p>
+
       <input type="text" id="searchInput" placeholder="Cari..." style="margin-bottom:10px; padding:5px;">
+
+      <!-- tombol untuk gelapkan kolom -->
+      <div style="margin:10px 0;">
+        <button onclick="toggleColumn(0)">Toggle Kolom 1</button>
+        <button onclick="toggleColumn(1)">Toggle Kolom 2</button>
+      </div>
+
       <div id="pagination" style="margin-top:10px;"></div>
     </div>
   </main>
@@ -70,7 +85,6 @@
   <footer>
     Copyright &copy; 2025 Irwansyah. All rights reserved.
   </footer>
-
 
 <script>
   let currentPage = 1;
@@ -82,7 +96,7 @@
     .then(response => response.text())
     .then(text => {
       globalData = text.trim().split('\n').map(row => row.replace('\r', '').split(';'));
-      filteredData = [...globalData]; // awalnya tidak difilter
+      filteredData = [...globalData]; 
       render();
     });
 
@@ -95,38 +109,37 @@
     const container = document.getElementById('tableContainer');
     container.querySelectorAll('table').forEach(t => t.remove());
 
-    const start = (page - 1) * rowsPerPage + 1; // +1 untuk skip header
+    const start = (page - 1) * rowsPerPage + 1; 
     const end = start + rowsPerPage;
     const paginatedData = data.slice(start, end);
 
     const table = document.createElement('table');
-    table.border = '1';
-    table.style.borderCollapse = 'collapse';
-    table.style.width = '100%';
 
-    // Tampilkan header (baris pertama)
+    // Header
     const headerRow = document.createElement('tr');
     data[0].forEach(cell => {
       const th = document.createElement('th');
       th.textContent = cell.trim();
-      th.style.padding = '8px';
-      th.style.backgroundColor = '#f2f2f2';
       headerRow.appendChild(th);
     });
     table.appendChild(headerRow);
 
+    // Isi tabel
     paginatedData.forEach(row => {
       const tr = document.createElement('tr');
-      row.forEach(cell => {
+      row.forEach((cell, idx) => {
         const td = document.createElement('td');
         td.textContent = cell.trim();
-        td.style.padding = '8px';
+        td.dataset.colIndex = idx; // simpan index kolom
         tr.appendChild(td);
       });
       table.appendChild(tr);
     });
 
     container.insertBefore(table, document.getElementById('pagination'));
+
+    // Terapkan kembali hidden jika ada
+    applyHiddenColumns();
   }
 
   function setupPagination(data) {
@@ -135,11 +148,9 @@
 
     const totalPages = Math.ceil((data.length - 1) / rowsPerPage);
 
-    // Tombol Previous
     const prevBtn = document.createElement('button');
     prevBtn.textContent = 'Previous';
     prevBtn.disabled = currentPage === 1;
-    prevBtn.style.margin = '0 5px';
     prevBtn.addEventListener('click', () => {
       if (currentPage > 1) {
         currentPage--;
@@ -148,11 +159,9 @@
     });
     pagination.appendChild(prevBtn);
 
-    // Tombol page number
     for (let i = 1; i <= totalPages; i++) {
       const btn = document.createElement('button');
       btn.textContent = i;
-      btn.style.margin = '0 2px';
       btn.style.fontWeight = (i === currentPage) ? 'bold' : 'normal';
       btn.style.backgroundColor = (i === currentPage) ? '#007bff' : '';
       btn.style.color = (i === currentPage) ? '#fff' : '';
@@ -163,11 +172,9 @@
       pagination.appendChild(btn);
     }
 
-    // Tombol Next
     const nextBtn = document.createElement('button');
     nextBtn.textContent = 'Next';
     nextBtn.disabled = currentPage === totalPages;
-    nextBtn.style.margin = '0 5px';
     nextBtn.addEventListener('click', () => {
       if (currentPage < totalPages) {
         currentPage++;
@@ -177,18 +184,43 @@
     pagination.appendChild(nextBtn);
   }
 
-  // Fungsi Filter
+  // Filter pencarian
   document.getElementById('searchInput').addEventListener('input', function () {
     const keyword = this.value.toLowerCase();
 
     filteredData = globalData.filter((row, index) => {
-      if (index === 0) return true; // header tetap ditampilkan
+      if (index === 0) return true;
       return row.some(cell => cell.toLowerCase().includes(keyword));
     });
 
-    currentPage = 1; // reset ke halaman pertama saat mencari
+    currentPage = 1;
     render();
   });
+
+  // -----------------------------
+  // Fitur gelapkan kolom
+  // -----------------------------
+  let hiddenColumns = new Set();
+
+  function toggleColumn(colIndex) {
+    if (hiddenColumns.has(colIndex)) {
+      hiddenColumns.delete(colIndex);
+    } else {
+      hiddenColumns.add(colIndex);
+    }
+    applyHiddenColumns();
+  }
+
+  function applyHiddenColumns() {
+    document.querySelectorAll('td').forEach(td => {
+      const colIndex = parseInt(td.dataset.colIndex, 10);
+      if (hiddenColumns.has(colIndex)) {
+        td.classList.add('hidden-col');
+      } else {
+        td.classList.remove('hidden-col');
+      }
+    });
+  }
 </script>
 
 </body>
