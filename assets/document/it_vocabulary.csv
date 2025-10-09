@@ -1,0 +1,343 @@
+Category,Word,Meaning
+verb,access,mengakses
+verb,activate,mengaktifkan
+verb,add,menambahkan
+verb,allocate,mengalokasikan
+verb,analyze,menganalisis
+verb,apply,menerapkan
+verb,authenticate,mengotentikasi
+verb,backup,cadangan
+verb,build,membangun
+verb,calculate,menghitung
+verb,change,mengubah
+verb,click,mengklik
+verb,clone,mengkloning
+verb,compile,mengompilasi
+verb,compress,memampatkan
+verb,configure,mengkonfigurasi
+verb,connect,menghubungkan
+verb,convert,mengonversi
+verb,copy,menyalin
+verb,create,membuat
+verb,debug,men-debug
+verb,decrypt,mendekripsi
+verb,delete,menghapus
+verb,deploy,mendistribusikan
+verb,design,merancang
+verb,develop,mengembangkan
+verb,disconnect,memutuskan
+verb,download,mengunduh
+verb,edit,mengedit
+verb,encrypt,mengenkripsi
+verb,execute,menjalankan
+verb,expand,memperluas
+verb,export,mengekspor
+verb,extract,mengekstrak
+verb,filter,memfilter
+verb,fix,memperbaiki
+verb,format,memformat
+verb,generate,menghasilkan
+verb,host,host
+verb,import,mengimpor
+verb,index,indeks
+verb,initialize,menginisialisasi
+verb,install,menginstal
+verb,integrate,mengintegrasikan
+verb,link,tautan
+verb,load,memuat
+verb,login,masuk
+verb,logout,keluar
+verb,maintain,memelihara
+verb,merge,menggabungkan
+verb,monitor,memantau
+verb,move,memindahkan
+verb,navigate,menavigasi
+verb,optimize,mengoptimalkan
+verb,parse,mengurai
+verb,patch,menambal
+verb,ping,ping
+verb,print,mencetak
+verb,process,proses
+verb,program,program
+verb,query,kueri
+verb,reboot,me-restart
+verb,recover,memulihkan
+verb,redirect,mengalihkan
+verb,refresh,menyegarkan
+verb,register,mendaftar
+verb,release,merilis
+verb,remove,menghapus
+verb,rename,mengganti nama
+verb,replace,mengganti
+verb,restore,memulihkan
+verb,run,menjalankan
+verb,save,menyimpan
+verb,scan,memindai
+verb,schedule,menjadwalkan
+verb,search,mencari
+verb,select,memilih
+verb,send,mengirim
+verb,share,membagikan
+verb,shutdown,mematikan
+verb,sort,mengurutkan
+verb,start,memulai
+verb,stop,menghentikan
+verb,store,menyimpan
+verb,submit,mengirimkan
+verb,sync,sinkronisasi
+verb,test,menguji
+verb,track,melacak
+verb,transfer,mentransfer
+verb,transform,mentransformasi
+verb,uninstall,menghapus instalasi
+verb,update,pembaruan
+verb,upgrade,meningkatkan
+verb,upload,mengunggah
+verb,validate,memvalidasi
+verb,verify,memverifikasi
+noun,account,akun
+noun,address,alamat
+noun,administrator,administrator
+noun,algorithm,algoritma
+noun,application,aplikasi
+noun,array,larik
+noun,backup,cadangan
+noun,bandwidth,bandwidth
+noun,bit,bit
+noun,blockchain,blockchain
+noun,browser,peramban
+noun,buffer,penyangga
+noun,byte,byte
+noun,cache,cache
+noun,certificate,sertifikat
+noun,channel,saluran
+noun,chip,chip
+noun,cloud,komputasi awan
+noun,cluster,kluster
+noun,code,kode
+noun,command,perintah
+noun,compiler,kompiler
+noun,component,komponen
+noun,computer,komputer
+noun,configuration,konfigurasi
+noun,connection,koneksi
+noun,cookie,cookie
+noun,cryptography,kriptografi
+noun,dashboard,dasbor
+noun,data,data
+noun,database,basis data
+noun,dataset,kumpulan data
+noun,debugger,debugger
+noun,device,perangkat
+noun,disk,cakram
+noun,domain,domain
+noun,driver,driver
+noun,encryption,enkripsi
+noun,error,kesalahan
+noun,event,kejadian
+noun,field,kolom
+noun,file,berkas
+noun,firewall,firewall
+noun,folder,folder
+noun,framework,kerangka kerja
+noun,function,fungsi
+noun,gateway,gerbang
+noun,graph,grafik
+noun,hardware,perangkat keras
+noun,hash,hash
+noun,host,host
+noun,hyperlink,tautan
+noun,index,indeks
+noun,input,masukan
+noun,instance,instans
+noun,interface,antarmuka
+noun,internet,internet
+noun,iteration,iterasi
+noun,kernel,kernel
+noun,key,kunci
+noun,keyword,kata kunci
+noun,language,bahasa
+noun,library,pustaka
+noun,link,tautan
+noun,list,daftar
+noun,log,log
+noun,loop,perulangan
+noun,machine,mesin
+noun,macro,makro
+noun,malware,malware
+noun,memory,memori
+noun,message,pesan
+noun,metadata,metadata
+noun,method,metode
+noun,module,modul
+noun,network,jaringan
+noun,node,node
+noun,object,objek
+noun,operator,operator
+noun,output,keluaran
+noun,package,paket
+noun,parameter,parameter
+noun,password,kata sandi
+noun,path,jalur
+noun,platform,platform
+noun,pointer,penunjuk
+noun,port,port
+noun,process,proses
+noun,program,program
+noun,protocol,protokol
+noun,query,kueri
+noun,queue,antrian
+noun,record,rekaman
+noun,repository,repositori
+noun,request,permintaan
+noun,resource,sumber daya
+noun,response,respon
+noun,router,router
+noun,script,skrip
+noun,server,server
+noun,service,layanan
+noun,session,sesi
+noun,shell,shell
+noun,site,situs
+noun,software,perangkat lunak
+noun,stack,tumpukan
+noun,statement,pernyataan
+noun,storage,penyimpanan
+noun,string,string
+noun,structure,struktur
+noun,syntax,sintaks
+noun,system,sistem
+noun,table,tabel
+noun,tag,tag
+noun,thread,benang
+noun,token,token
+noun,tool,alat
+noun,transaction,transaksi
+noun,update,pembaruan
+noun,url,url
+noun,user,pengguna
+noun,variable,variabel
+noun,version,versi
+noun,virtualization,virtualisasi
+noun,virus,virus
+noun,web,web
+noun,website,situs web
+noun,window,jendela
+phrasal verb,back up,mencadangkan
+phrasal verb,boot up,menyalakan (komputer)
+phrasal verb,break down,rusak
+phrasal verb,build up,membangun
+phrasal verb,call up,memanggil
+phrasal verb,carry out,melaksanakan
+phrasal verb,check in,mendaftar masuk
+phrasal verb,check out,memeriksa/keluar
+phrasal verb,clean up,membersihkan
+phrasal verb,close down,menutup (selamanya)
+phrasal verb,come across,menemukan secara tidak sengaja
+phrasal verb,connect to,terhubung ke
+phrasal verb,cut off,terputus
+phrasal verb,deal with,menangani
+phrasal verb,figure out,memahami
+phrasal verb,find out,mengetahui
+phrasal verb,get back,kembali
+phrasal verb,get into,masuk
+phrasal verb,go back,kembali
+phrasal verb,go down,mati (server)
+phrasal verb,hack into,meretas
+phrasal verb,hand over,menyerahkan
+phrasal verb,hook up,menyambungkan
+phrasal verb,keep up,terus mengikuti
+phrasal verb,log in,masuk
+phrasal verb,log off,keluar
+phrasal verb,log out,keluar
+phrasal verb,look after,mengurus
+phrasal verb,look for,mencari
+phrasal verb,look into,menyelidiki
+phrasal verb,open up,membuka
+phrasal verb,pick up,mengambil
+phrasal verb,plug in,menyambungkan
+phrasal verb,point out,menunjukkan
+phrasal verb,print out,mencetak
+phrasal verb,pull down,merobohkan
+phrasal verb,pull out,menarik keluar
+phrasal verb,put in,memasukkan
+phrasal verb,put out,memadamkan
+phrasal verb,roll out,meluncurkan
+phrasal verb,run into,bertemu/bertabrakan
+phrasal verb,set up,mengatur
+phrasal verb,shut down,mematikan
+phrasal verb,sign in,masuk
+phrasal verb,sign out,keluar
+phrasal verb,sort out,menyelesaikan
+phrasal verb,speed up,mempercepat
+phrasal verb,start up,menyalakan
+phrasal verb,switch off,mematikan
+phrasal verb,switch on,menyalakan
+phrasal verb,take apart,membongkar
+phrasal verb,take down,menurunkan
+phrasal verb,take over,mengambil alih
+phrasal verb,test out,menguji
+phrasal verb,turn off,mematikan
+phrasal verb,turn on,menyalakan
+phrasal verb,use up,menghabiskan
+phrasal verb,wipe out,menghapus
+phrasal verb,work on,mengerjakan
+phrasal verb,work out,menyelesaikan
+phrasal verb,write down,menuliskan
+preposition,about,(preposisi) about
+preposition,above,(preposisi) above
+preposition,across,(preposisi) across
+preposition,after,(preposisi) after
+preposition,against,(preposisi) against
+preposition,along,(preposisi) along
+preposition,among,(preposisi) among
+preposition,around,(preposisi) around
+preposition,as,(preposisi) as
+preposition,at,(preposisi) at
+preposition,before,(preposisi) before
+preposition,behind,(preposisi) behind
+preposition,below,(preposisi) below
+preposition,beneath,(preposisi) beneath
+preposition,beside,(preposisi) beside
+preposition,between,(preposisi) between
+preposition,beyond,(preposisi) beyond
+preposition,by,(preposisi) by
+preposition,concerning,(preposisi) concerning
+preposition,despite,(preposisi) despite
+preposition,down,(preposisi) down
+preposition,during,(preposisi) during
+preposition,except,(preposisi) except
+preposition,for,(preposisi) for
+preposition,from,(preposisi) from
+preposition,in,(preposisi) in
+preposition,inside,(preposisi) inside
+preposition,into,(preposisi) into
+preposition,like,(preposisi) like
+preposition,near,(preposisi) near
+preposition,of,(preposisi) of
+preposition,off,(preposisi) off
+preposition,on,(preposisi) on
+preposition,onto,(preposisi) onto
+preposition,out,(preposisi) out
+preposition,outside,(preposisi) outside
+preposition,over,(preposisi) over
+preposition,past,(preposisi) past
+preposition,regarding,(preposisi) regarding
+preposition,round,(preposisi) round
+preposition,since,(preposisi) since
+preposition,than,(preposisi) than
+preposition,through,(preposisi) through
+preposition,throughout,(preposisi) throughout
+preposition,till,(preposisi) till
+preposition,to,(preposisi) to
+preposition,toward,(preposisi) toward
+preposition,under,(preposisi) under
+preposition,underneath,(preposisi) underneath
+preposition,until,(preposisi) until
+preposition,up,(preposisi) up
+preposition,upon,(preposisi) upon
+preposition,versus,(preposisi) versus
+preposition,via,(preposisi) via
+preposition,with,(preposisi) with
+preposition,within,(preposisi) within
+preposition,without,(preposisi) without
