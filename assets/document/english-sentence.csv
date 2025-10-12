@@ -1,739 +1,991 @@
-No;Bahasa Inggris;Artinya;Jenis;Catatan;kalimat;
-1;Always;Selalu;adv;;I always go to school alone;
-2;Actually;Sebenarnya;adv;;"Actually, I go to school alone";
-3;Usually;Biasanya;adv;;I usually go to work after breakfast;
-4;Sometimes;Kadang-Kadang;adv;;"Sometimes, I find it difficult to develop my career";
-5;Suddenly;Tiba-Tiba;adv;;"Suddenly, I forgot my phone";
-6;After;Setelah;pre/conj/adv;;I left my sister at home before i want to school;
-7;Before;Sebelum;pre/conj/adv;;I feel happy after eat it;
-8;Accompany;Menemani;verb;;I will accompany you until afternoon;
-9;Admire;Mengagumi;verb;;I admire your attitude toward me;
-10;Adventure;Petualangan;noun;;I very excited about your adventure;
-11;Affection;Kasih Sayang;noun;;Affection comes when i love someone;
-12;Afraid;Takut;adj;nothing tidak boleh ada tensen negatif;And yet I am not afraid of any problem that comes|there is nothing to be afraid of;
-13;Afternoon;Sore;noun;;I go back to school every afternoon;
-14;Alone;Sendirian;adj;;I always walk aimlessly alone whenever i have problem;
-15;Another;Yang Lain;adj;;I don't have another choice;
-16;Ant;Semut;noun;;This ant is very big;
-17;Anything;Apapun;pronoun;;I can eat anything;
-18;Anywhere;Di Manapun;adv;;I can live anywhere;
-19;Arrogant;Sombong;adj;;They have an arrogant attitude|What can make me trust you?;
-20;Autumn;Musim Gugur;noun;;We are approaching autumn;
-21;Available;Tersedia;adj;;This stuff is available now;
-22;Average;Rata-Rata;adj;;The average height of asian people is 170 cm;
-23;Bathroom;Kamar Mandi;noun;;This bathroom is very smelly;
-24;Behavior;Tingkah Laku;noun;;This object has strange behavior;
-25;Behind;Dibelakang;prepos;;"At school,  I sit behind her ";
-26;Believe;Percaya;verb;;"After the incident, I believe that you are my best friend";
-27;Beside;Di Samping;prepos;;I will always be beside you when no matter what happen;
-28;Big;Besar;adj;;This bag is very big|Who teams is become big4 in premier league 2025/2026 edition?;
-29;Black & White;Hitam & Putih;adj;;Your skin is black but it still looks sweet;
-30;Blind;Tunanetra;adj;;I am not blind|what are you blind?;
-31;Blood;Darah;noun;;My blood comes from lord's clan;
-32;Brain;Otak;noun;sp;the size of brain does not determine our intelligence;
-33;Bread;Roti;noun;;Have you eaten the bread?;
-34;Breakfast;Sarapan Pagi;noun;;Did you have breakfast?;
-35;Bridge;Jembatan;noun;;I just passed the bridge;
-36;Brother;Saudara;noun;untuk Laki-Laki;I have a brother and a sister;
-37;Candle;Lilin;noun;;I light a candle when power outage;
-38;Candy;Permen;noun;;This candy is very sweet;
-39;Conversation;Percakapan;noun;;I understand enough about conversations in information technology;
-40;Challenge;Tantangan;noun;;"The game was hard, but i enjoyed it as a challange";
-41;Chance;Peluang;noun;;I have chance to work overseas;
-42;Change;Mengubah;verb;;I am trying to change for the better;
-43;Childhood;Masa Kecil;noun;;What was your chilhood like?;
-44;Church;Gereja;noun;;My home is near santa maria church;
-45;Color;Warna;noun;;I don't know why i like the blue color? maybe blue is similar to the beautiful sky;
-46;Company;Perusahaan;noun;;I have work experience in a few companies;
-47;Confident;Percaya Diri;adj;;I have to be confident when I present the project developing software app;
-48;Congratulations!;Selamat!;noun;;"Congratulation, irwan, on your wedding today. Hopefully the marrige brings you happiness always";
-49;Country;Negara;noun;;Indonesia is a country has strange regulations which give advantages to goverment officials and rich people;
-50;Crazy;Gila;adj;;I feel crazy when i dont get a job for a few weeks;
-51;Cry;Menangis;verb;;I won't cry about losing my job;
-52;Curious;Penasaran;adj;;"I am curious, how do people learn English quickly?";
-53;Cute;Imut;adj;;I have a cute kitten;
-54;Dangerous;Berbahaya;adj;;"Be careful of that person, that person is very dangerous";
-55;Dark;Gelap;adj;;This dark room can only seen by dirty people;
-56;Date;Tanggal;noun;;The 29th date is special for my wife;
-57;Daughter;Anak Perempuan;noun;;I hope my second child will be daughter;
-58;Day;Hari;noun;;The day after tomorrow is my day off;
-59;Different;Berbeda;adj;have=jamak/has=singular/satuan;I asked different people about how they survived the economic crisis?|each person has a different abilities;
-60;Difficult;Sulit;adj;;I can't answer difficult questions;
-61;Dirty;Kotor;adj;;My shirt looks dirty;
-62;Disappear;Menghilang;verb;;I will disappear from crowd;
-63;Disaster;Bencana;noun;;The earthquake is a natural disaster that is unpredictable;
-64;Disgusting;Menjijikan;adj;;Something yo do is disgusting;
-65;Distance;Jarak;noun;;The distance between my home and your home is very long;
-66;Door;Pintu;noun;;Why that those doors always open after the rain?;
-67;Dream;Mimpi;noun;;I have a dream to work overseas;
-68;Earth;Bumi;noun;;"This earth is old, and we should save it together";
-69;Education;Pendidikan;noun;;Education is a part of life that is very important for a better life;
-70;Enough;Cukup;adj;;This place doesn't have enough air;
-71;Environment;Lingkungan;noun;;"At the moment, The jalin project has been deployed to the production environment";
-72;Evening;Malam Hari;noun;;"In the evening, I usually pray to Allah so that life becomes easier";
-73;Every;Setiap;adj;;"On average, every car has four seats";
-74;Everybody;Semua Orang;pronoun;;"Hello everybody, this time I explain how to become a clever programmer and finish problem-solving in every project";
-75;Every Day;Setiap Hari;pronoun;;"Every day, you should complete problem solving tasks on The Hackerrank platform using any programming language, with minimum of ten questions";
-76;Everything;Segalanya;pronoun;;"Money isn't everything, It just a tool to make life easier";
-77;Everywhere;Dimana-Mana;adv;;"Everywhere we go, I feel happy with you";
-78;Expensive;Mahal;adj;;Lamborgini is one of the most expensive car brands;
-79;Experience;Pengalaman;noun;;I have 3 years of experience as a Java programmer;
-80;Expert;Ahli;noun;;I am an expert in using Java Springboot and Integration Server for application development;
-81;Extraordinary;Luar Biasa;adj;;Your extraordinary abilities are very rare;
-82;Family;Keluarga;noun;;I am from a middle-class family that does have any privileges;
-83;Famous;Terkenal;adj;;Java is one of most famous programming languages that uses the object-oriented concept;
-84;Farmer;Petani;noun;;"In Indonesia, farmers is one of most undesirable professions for Gen Z";
-85;Fast;Cepat;adj;;A plane is the fastest form of transportation and provide good security;
-86;Father & Mother;Ayah & Ibu;noun;;"I proud to have an amazing father, he works tirelessly for our family";
-87;Feel;Merasa;verb;;I feel curios about how a computer works in processings data;
-88;Field;Lapangan;noun;;I play soccer in th neighboring village field;
-89;Rice-Field;Sawah;noun;;In jakarta is there are no rice fields;
-90;Finger;Jari;noun;;My mother's finger hurts;
-91;Fish;Ikan;noun;;Fish has swum from downstream to upstream;
-92;Flood;Banjir;noun;;The fload has lasted for two days;
-93;Floor;Lantai;noun;;I work on the 22nd floor at Pakuwon Tower;
-94;Flower;Bunga;noun;;A sunflower is one of most beautiful flowers;
-95;For;Untuk;prepos;;The fload has lasted for two days;
-96;Forest;Hutan;noun;;How to survive when you are lost in the forest?;
-97;Forever;Selamanya;adv;;"Actually, What do we want in live ? To live forever?";
-98;Forget;Lupa;verb;Setelah to harus bentuk dasar(V1);I forgot today is your birthday|I forgot to buy sugar;
-99;Forgive;Memaafkan;verb;;I forgive all your mistakes;
-100;Freedom;Kebebasan;noun;19-agustus2025;Freedom of life is when goverment makes rule based on aspiration of the people's;
-101;Friend;Teman;noun;; My friends and I are going to cinema to watch a Kimetsu no yaiba film;
-102;Fruits;Buah-Buahan;noun;;I bring different kinds of a fruits to the office;
-103;Future;Masa Depan;noun;;A bright future will achieve when you do your best;
-104;Garden;Kebun;noun;;Fruits Garden is a good place to introduce different kinds of fruit to children;
-105;Generous;Dermawan;adj;;The are Generous people everywhere in the world;
-106;Get;Mendapatkan;verb;;I try to get up early in the morning today;
-107;Give;Memberi;verb;;I will give you one more chance;
-108;Government;Pemerintah;noun;;Indonesia is a country has strange regulations which give advantages to goverment officials and rich people;
-109;Grade;Tingkat;noun;;"I studied at SMPN 1 Cikupa, In the second grade, one of my friend from my previous class and I was placed in class C";
-110;Grandfather;Kakek;noun;;I have two grandfathers and three grandmothers;
-111;Grandmother;Nenek;noun;;I have two grandfathers and three grandmothers;
-112;Grass;Rumput;noun;;The grass on the school field is very long;
-113;Guest;Tamu;noun;;My guest will stay the night;
-114;Habit;Kebiasaan;noun;;Habits start from yourself;
-115;Hair;Rambut;noun;;I have curly blue hair;
-116;Have;Memiliki;verb ;;I have curly blue hair;
-117;He;Dia;pronoun;untuk Laki-Laki;"He is my brother. currently, he studies at Semarang University";
-118;Health;Kesehatan;noun;;"Suddenly, The Health has become important  comodity in todays business";
-119;Heart;Hati;noun;;I had a broken heart ;
-120;Heaven;Surga;noun;22-agt-2025;"Labuhan Bajo is a beautiful place, and I feel like I'm in heaven ";
-121;Hell;Neraka;noun;;"Actually, this hot weather is just 0.00001% of hell";
-122;Here;Disini;adv;;"Hello, where are you now(scream)? I'm here, bro";
-123;History;Sejarah;noun;;This room has a lot of unforgettable history;
-124;Holiday;Liburan;noun;;Was your holiday fun?;
-125;Honey;Madu;noun;;"This honey has a unique taste; it is mix of sour and sweet flavors";
-126;Honour;Kehormatan;noun;;It is honour to be the best programmer at tangerang city;
-127;Horrible;Mengerikan;adj;;The incident is very horriable;
-128;Hospital;Rumah Sakit;noun;;RSUD is one of regional hospitals that belongs to the state;
-129;Hungry & Thirsty;Lapar & Haus;adj;;I'm very hungry and thirsty after fasting for 12 hours;
-130;Ignore;Mengabaikan;verb;if perlu subjek;"Why are you ignoring me about this?|Don't try to ignore me; if you do, you will face the consequences";
-131;Important;Penting;adj;;"As a Software Engineer, trying to learn new things is important";
-132;Impossible;Mustahil;adj;;"I keep trying english, although it feels a little impossible for me";
-133;Interesting;Menarik;adj;;IT and English are interesting lessons;
-134;Introduce;Memperkenalkan;verb;;I will introduce my self;
-135;Jealous;Cemburu;adj;23-agt-2025;I'm jealous to people who have good communication skills;
-136;Journey;Perjalanan;noun;;This journey is very tiring;
-137;Kitchen;Dapur;noun;;I cook roasted steak;
-138;Know;Tahu;verb;;We will know what kind of person we are when we are given life's problems;
-139;Knowledge;Pengetahuan;noun;;"according to my friend, my knowledge of IT is very impressive, but I don't feel like that way";
-140;Lake;Danau;noun;;Lake Toba is one of the biggest lakes in Indonesia;
-141;Landscape;Pemandangan;noun;;Lake Toba has beautiful landscapes;
-142;Language;Bahasa;noun;;"This time, I can only speak Indonesian. so, that's why I try learn English | The world has tens of thousands of different languages";
-143;Loyal;Setia;adj;;What does it mean by loyal?;
-144;Library;Perpustakaan;noun;;I go to the library every weeks;
-145;Life;Kehidupan;noun;;Will my life change after I  learn a few new things?;
-146;Line;Garis;noun;;I measured the coastline of Sawarna beach to be about 3 miles long;
-147;Lonely;Kesepian;adj;;"At that time, I felt like a lonely person";
-148;Lucky;Beruntung;adj;;I'm lucky because I was given the ability to think logically by God;
-149;Magazine;Majalah;noun;;I'm reading a Kompas magazine;
-150;Make;Membuat;verb;24-agt-2025;I will make you happy;
-151;Matchmaker;Mak Comblang;noun;;I was your matchmaker;
-152;Maybe;Mungkin;adv;;Maybe I late to back home;
-153;Midnight;Tengah Malam;noun;;"New year has come, so tonight there will be a fireworks display at midnight ";
-154;Milk;Susu;noun;;It's been long time since I drank milk;
-155;Mind;Pikiran;noun;25-agt-2025;My mind will determine my future;
-156;Mistake;Kesalahan;noun;;Sorry to my soul for mistakes of the past;
-157;Money;Uang;noun;;"money isn't everything, It just a tool to make life easier";
-158;Moon;Bulan;noun;;"If I can't be the sun, then let me be the moon for you";
-159;Morning;Pagi;noun;;Every morning I thank God for the health he has given me;
-160;Mosque;Masjid;noun;;My home is near the Al-ikhlasiyah Mosque;
-161;Mountain;Gunung;noun;;The Himalayas are one of the longest mountain ranges in the world;
-162;Nature;Alam;noun;;Some villages of Indonesia still have pristine and cool natural surroundings;
-163;Naughty;Nakal;adj;;I was naughty in my childhood;
-164;Near/ Far;Dekat/ Jauh;adv;;The ball fell down near the grass;
-165;Neighbour;Tetangga;noun;27-agt-2025;"Luckily, I have a nice neighbour";
-166;Nervous;Gugup;adj;;I feel nervous before I present my work to the leader;
-167;New;Baru;adj;;I will begin a new journey after being laid off from work ;
-168;News;Berita;noun;;"Every morning , I read news article on the web";
-169;Newspaper;Koran;noun;;The newspaper is an outdated medium;
-170;Nobody;Tak Seorang Pun;pronoun;;Nobody care about your achivement;
-171;North;Utara;noun;;"My love is lives in Medan, North Sumatera ";
-172;Ocean;Lautan;noun;;The Pacific  is one of the widest oceans in the world;
-173;Office;Kantor;noun;;I walk to the office every workday ;
-174;Onion;Bawang;noun;;Onion is one of the important ingredients for cooking fried rice;
-175;Open;Buka;noun;28-agt-2025;I opened the door after the rain;
-176;Opportunity;Kesempatan;noun;;"Hello, My name is irwan, and I seeking new opportunity in the IT Industry";
-177;Ordinary;Biasa;adj;;"I just an ordinary men, not rich and not extraordinary";
-178;Paper;Kertas;noun;;I writing my name on a piece of paper;
-179;Park;Taman;noun;;I play badminton on the field at the city park;
-180;Parents;Orang Tua;noun;Untuk Ayah & Ibu;"Luckily, I have both of my parents and they always support me in any situation";
-181;Party;Pesta;noun;;I was not invited to the club party ;
-182;Passenger;Penumpang;noun;;The passengers are sitting the waiting room for about 2 hours to wait for the plane to take off;
-183;Perfect;Sempurna;adj;;Nobody is a perfect human in the world;
-184;Path;Jalan Setapak;noun;;Please follow this path and you will see the way out;
-185;Picture;Gambar;noun;;I take your picture;
-186;Place;Tempat;noun;;This place is so amazing;
-187;Pocket;Saku;noun;;My pocket only contain a wallet ;
-188;Poem;Sajak;noun;;This poem is truly poetic;
-189;Punishment;Hukuman;noun;;I hope the corruptors are given a serious punisment;
-190;Purpose;Tujuan;noun;29-agt-2025;This life has a purpose;
-191;Question;Pertanyaan;noun;;I have one question for you.;
-192;Rain;Hujan;noun;;The rainbow will be seen after the rain  ;
-193;Really;Benar-Benar;adv;;I am really happy after I am got the job offer;
-194;Remember;Ingat;verb;;"Now, I remember your attitude toward me";
-195;Respect;Menghormati;verb;;"I respect my ex-leader, he gave me a lot support";
-196;Responsible;Bertanggung Jawab;adj;;I am responsible for what did I;
-197;Rice;Nasi;noun;;"evidently, this fried rice is very spicy";
-198;Rich;Kaya;adv;;"Everybody wants to be a rich people but only some people make the effort|I am just an ordinary men, not rich and not smart";
-199;Reason;Alasan;noun;;You need to have strong reasons to change your life;
-200;River;Sungai;noun;31-agt-2025;The Cisadane is one of the river in the tangerang;
-201;Roof;Atap;noun;Starting;The roof of my house is leaking;
-202;Schedule;Jadwal;noun;;"Every day ,the flight schedules change ";
-203;Secret;Rahasia;adj;;The secret room isn't open to anybody;
-204;Simple;Sederhana;adj;;This is the simplest way to escape the room|let's think in the a simple way ;
-205;Smart;Pintar;adj;; smart people are real;
-206;Smile;Tersenyum;adj;;Your smile is so sweet;
-207;Soldier;Tentara;noun;;The soldiers must protect people in that country;
-208;Some;Beberapa;pronomina;;Some provinces still have bad leaders;
-209;Someone;Seseorang;pronomina;;I hope she is someone from my dreams;
-210;Something;Sesuatu;pronomina;;I got something important about a Docker;
-211;Somewhere;Suatu Tempat;pronomina;;"Somewhere out there, I was found";
-212;Story;Cerita;noun;;My story is extraordinary to tell to many people;
-213;Survival;Bertahan Hidup;noun;;I must a surviva in this situation;
-214;Teacher;Guru;noun;;My teacher is my mentor and a big part of my experience;
-215;Together;Bersama;adv;;They go back to school together;
-216;Train;Kereta Api;noun;;I take the train from kualanamu airport to the medan station;
-217;Tree;Pohon;noun;;There is a mango tree behind my house;
-218;Uniform;Seragam;noun;;My school has a unique uniform;
-219;Useful;Bermanfaat;adj;04/09/2025;is the Docker tutorial useful?;
-220;Useless;Tidak Bermanfaat;adj;;"You shouldn't just scroll Tiktok every day, it's not useless";
-221;Vegetable;Sayuran;noun;;Is a tomato a vegetable or a fruit?;
-222;Victory;Kemenangan;noun;;I achieved victory in the local Tekken tournament;
-223;Village;Desa;noun;;Every village in Indonesia is getting 5M from the goverment to develop the village;
-224;Vulnerable;Rentan;adj;;This core banking system has a vulnerable setup that must be repaired;
-225;Wall;Dinding;noun;;The Great Wall of China is one of the largest walls is considered a wonder of the world ;
-226;War;Perang;noun;;"World War II happened between 1939 to 1945, lasting six years";
-227;Weather;Cuaca;noun;;Is weather very hot today ?;
-228;Window;Jendela;noun;;"Every morning, I open the window in my bedroom until noon";
-229;Wonderful;Sangat Bagus;adj;;This landscape is wonderful;
-230;World;Dunia;often;05/09/2025;This world is very big;
-231;Speak;Berbicara;verb;;"This time, I can only speak Indonesian. so, that's why I try learn English | The world has tens of thousands of different languages";
-232;Listen;Mendengarkan;verb;;"Please, once listen to me ";_____
-233;Smile - Tell;Tersenyum - Mengatakan;verb;;Your smile is so sweet;
-234;Laugh;Tertawa;verb;;I laughed when I heard that;
-235;Sleep;Tidur;verb;;I try to sleep before midnight;
-236;Invite;Mengundang;verb;;"Tomorrow, I invite you to come to my house";
-237;Visit;Mengunjungi;verb;;"Yesterday, I saw you visiting your grandparents' house";
-238;Meet;Bertemu;verb;;Can we meet again later?;
-239;Eat;Makan;verb;;What do you want to eat?;
-240;Drink;Minum;verb;;What is your favorite drink?;
-241;Bring;Membawa;verb;;"Tomorrow, don't forget to bring my book";
-242;Follow;Mengikuti;verb;;Who are the great people you follow?;
-243;Take;Mengambil;verb;;Can you take me to the UKS ?;
-244;Sit;Duduk;verb;;Do you want to sit beside me?;
-245;Stand;Berdiri;verb;;"everybody, stand up please";
-246;Run;Berlari;verb;;When was the last time you went for a morning run?;
-247;Walk;Berjalan;verb;;Is walking healthy for us?;
-248;Wait;Menunggu;verb;a -> benda blm spesifik/bs dihitung;Please keep waiting here for a while;
-249;Work;Bekerja;verb;;"This situation makes me feel tired, I want to finish work quickly";
-250;Watch;Menonton;verb;;I am watching SpongeBobs SquarePants;
-251;Teach;Mengajar;verb;;I will teach you the basics of programming;
-252;Read;Membaca;verb;;Have you read the Kimetsu manga? How is the storyline?;
-253;Write;Menulis;verb;;Will you write me a letter after go back home?;
-254;Study;Belajar;verb;;When was the last time you studied English?;
-255;Put;Meletakan;verb;;Where did you put the glass earlier?;
-256;Prepare;Mempersiapkan;verb;;Have you prepared the test for tomorrow ?;
-257;Explain;Menjelaskan;verb;;I hope you can explain it well;
-258;Describe;Menggambarkan;verb;;Can you describe the behavior of corruptor?;
-259;Think;Berpikir;verb;07/09/2025;I think I need to sleep now;
-260;Advise;Menasehati;verb;;My mom try to advise my brother not to be extravagant ;
-261;Attend;Menghadiri;verb;;I attended the meeting at 9 AM to follow the Jalin testing ;
-262;Persuade;Membujuk;verb;;I need to persuade my wife to allow me to play badminton with my work colleague;
-263;Buy;Membeli;verb;;I bought the wrong type of RAM for my computer;
-264;Sell;Menjual;verb;;I need to sell my RAM on the marketplace;
-265;Pay;Membayar;verb;;I always pay for my wife's skincare;
-266;Borrow;Meminjam;verb;;Can I borrow Rp. 50.000 from you?;
-267;Lend;Meminjamkan;verb;;Why did you lend him money yesterday?;
-268;Go;Pergi;verb;;Where am I going the next?;
-269;Come;Datang;verb;;Don't forget to come Beni's house tomorrow;
-270;Receive;Menerima;verb;;Did you receive the letter from the L Company?;
-271;Refuse;Menolak;verb;;I refused to request the CSCC document yesterday;
-272;Choose;Memilih;verb;;I didn't choose the jobs I wanted;
-273;Hope;Mengharapkan;verb;08/09/2025;I hope the government can understand the people;
-274;Remind;Mengingatkan;verb;whole cocok untuk benda tunggal| remaind lebih cocok dengan about dan to;Did you remind him aboout justice in all of Indonesia?;
-275;Decide;Memutuskan/menentukan;verb;setelah from harus noun;What was the result of the decision yesterday? | I will decide a lot tomorrow;
-276;Try;Mencoba;verb;;How much time do you spend training Tekken to become an expert?|I try again;
-277;Call;Memanggil;verb;;Can you call the ambulance now?;
-278;Mention;Menyebut;verb;setelah for Verb harus +ing;Don't forget to mention mr. Wan for developing the Jalin project;
-279;Insult;Menghina;verb;;better to be quiet than to insult;
-280;Praise;Memuji;verb;someone tidak perlu artikel;Don't ever praise someone excessively;
-281;Catch;Menangkap;verb;inget are itu butuh verb ing;Are you catching me?;
-282;Blame;Menyalahkan;verb;tanpa article->nm orang/banyak/tdk bs dihitung;I don't know who should be blamed in this situation;
-283;Add;Menambahkan;verb;the -> benda spesifik/diketahui;Please add me to the WA group ;
-284;Keep;Menjaga;verb;these diikuti kata jamak;Please keep this secret from your friends;
-285;Cut;Memotong;verb;;Are you cutting the grass behind your home?;
-286;Share;Berbagi;verb;;Please share this information with people of the village;
-287;Divide;Membagi;verb;;I will try to divide this cake fairly;
-288;Join;Bergabung;verb;;Can I join the Java Community?;
-289;Agree;Menyetujui;verb;;I agree with this decision;
-290;Avoid;Menghindari;verb;09/09/2025;I try to avoid the nail trap;
-291;See;Melihat;verb;recently cocok dengan V3;Have you seen beni this way recently?;
-292;Leave;Meninggalkan;verb;will cocok future tense;Will we leave her alone here?;
-293;Admit;Mengakui;verb;verb ini cocok untuk mengakui sesuatu yg sulit;I admit my mistake;
-294;Affect;Mempengaruhi;verb;;Your words affected me yesterday;
-295;Allow;Mengizinkan;verb;;Why are you allowing him to enter?;
-296;Answer;Menjawab;verb;;"What is your answer, Andy?";
-297;Attack;Menyerang;verb;;How do we attack them quickly?|Let go and attack the bottom tower together;
-298;Build;Membangun;verb;had itu untuk masa lalu;What building are you building ?;
-299;Care;Peduli;verb;Do=pertanyaan ada main verb;Do you care about Indonesion people?;
-300;Clean;Membersihkan;verb;;Have you cleaned your hand?;
-301;Compare;Membandingkan;verb;between digunakan untu membandingkan;"Before Deni bought a computer, he compared its price between Istana Komputer and MSI ";
-302;Contain;Mengandung;verb;;Does this food contain lard?;
-303;Cook;Memasak;verb;like setelah kata kerja diikuti ing;Do you like cooking?;
-304;Create;Menciptakan;verb;ever untuk ? dan negatif;I once created a PHP micro framework for my final project at Pamulang University;
-305;Disturb;Mengganggu;verb;;Please don't disturb me when I am sleeping;
-306;Encourage;Mendorong;verb;bedanya dgn push;I encourage myself to believe in destiny;
-307;Expand;Memperluas;verb;;The MNC Group is expanding its business into the horse farm;
-308;Extend;Memperpanjang;verb;;Everybody hopes to extend the contract at the workplace;
-309;Guide;Membimbing/memandu;verb;;Would you guide me in Japan?;
-310;Increase;Meningkatkan;verb;;I want to increase my income by become freelance of the back-end developer;
-311;Lie;Berbohong;verb;;Why are you lying to me?;
-312;Like;Menyukai;verb;;What do you like from me ?;
-313;Overcome;Mengatasi;verb;;How do overcome problems that come?;
-314;Pretend;Berpura-Ura;verb;;Please stop pretend to me;
-315;Punish;Menghukum;verb;;Are you punish my Tekken character?;
-316;Reflect;Mencerminkan;verb;;Your child's behavior reflect who you ;
-317;Replace;Menggantikan;verb;;I replace your position while;
-318;Find;Menemukan;verb;13/09/2025;Can you find me?;
-319;Ask;Bertanya;verb;;"if you are confused, just ask me";
-320;Want;Ingin;verb;kalau pakai keterangan waktu pakai for;I want to rest for a while;
-321;Promise;Berjanji;verb;;Can are you promising to keep with me?;
-322;Save;Menyimpan;verb;;I saved your number;
-323;Understand;Mengerti;verb;enough di pakai setelah V1 dan ADJ;I understand enough about the problem that is happening;
-324;Prove;Membuktikan;verb;;can you prove that I am at fault?;
-325;Say;Mengatakan;verb;;what did you just say for a moment ago?;
-326;Sing;Bernyanyi;verb;;I want to sing a mellow song;
-327;Spend;Menghabiskan;verb;14/09/2025;how much money did you spend on your wedding?;
-328;Spare;Meluangkan;verb;"few=bisa dihitung, little=tdk bs dihitung";I spare a little time to practice speaking and listening in English;
-329;Swear;Bersumpah;verb;;Can you swear to don't leave me alone?;
-330;Swim;Berenang;verb;;Can you swim?;
-331;Sweep;Menyapu;verb;;Nemanja Vidic sweeps the ball when there is a dangerous situation;
-332;Wash;Mencuci;verb;always harus dengan v1;My mom always washes my dirty clothes;
-333;Tear;Merobek;verb;;Can you help me tear that banner?;
-334;Touch;Menyentuh;verb;;Don't touch my head;
-335;Trap;Menjebak;verb;;"Please be careful, there is a trap here";
-336;Wear;Memakai;verb;"that given  salah, karena perlu bentuk pasif: that were given (yang diberikan)";I wear clothes that were given to me by my love;
-337;Wish;Berharap;verb;"verb ini past tense cocok untuk penyesalan/imajinasi, Now ? wish + past simple;Past ? wish + past perfect;Future ? wish + would/could";I wished to get married last year;
-338;Count;Menghitung;verb;;"Can do you count down, starting from three before we begin the game?";
-339;Kick;Menendang;verb;;I kick the ball hard;
-340;Forbid;Melarang;verb;;Can you forbid benny to go ?;
-341;Bite;Menggigit;verb;;"This dog tried to bite me, but I ran away";
-342;Draw;Menggambarkan/menggambar;verb;bedanya dgn describe;I can't draw well;
-343;Push;Mendorong;verb;;please push the door from the inside;
-344;Pull;Menarik;verb;bedanya dgn withdraw;I pulled the latest resources from the Github;
-345;Fold;Melipat;verb;;please help me fold all the newspapers;
-346;Guess;Menebak;verb;;Can you guess what that pose is?;
-347;Blow;Meniup;verb;;I blow up my ballon to burst;
-348;Chew;Mengunyah;verb;;Please chew properly;
-349;Reach;Meraih;verb;;I can't reach it;
-350;Repair;Memperbaiki;verb;;what is the most recommend place to repair my laptop;
-351;End;Mengakhiri;verb;;I will end this discussion today;
-352;Withdraw;Menarik;verb;17/09/2025;"My phone is broken,so I can't use mobile banking. I need to withdraw money from the ATM to buy something";
-353;Absurd;Konyol;adj;;why do you like kind of absurd stand-up comedy?;
-354;Amazing;Menakjubkan;adj;;This landscape is looks amazing from here ;
-355;Angry;Marah;adj;;Are you angry with me?;
-356;Annoying;Menjengkelkan/mengganggu;adj;prepos adj with atau at;your habits are really annoying;
-357;Beautiful;Cantik;adj;;You're beautiful girl;
-358;Bitter;Pahit;adj;;this americano coffee is so bitter;
-359;Boring;Membosankan;adj;;what attitude makes you feel bored?|this movie is boring;
-360;Brave;Berani;adj;;Be brave to attack and protect your friends;
-361;Busy;Sibuk;adj;;"sorry, I am busy now";
-362;Careful;Hati-Hati;adj;;"Be careful of that person, that person is very dangerous";
-363;Careless;Ceroboh;adj;19/09/2025;Don't be careless;
-364;Charming;Menawan;adj;;"Today, your attitude is so charming,";
-365;Cheap;Murah;adj;;Where did you buy that stuff?is the price cheap?;
-366;Cheerful;Ceria;adj;;the children are looking cheerful;
-367;Childish;Kekanak-Kanakan;adj;;I know I still look childish;
-368;Clear;Jelas/terang/bersih;adj;20/09/2025;This zone is clear;
-369;Clever;Pintar;adj;;"Finally we are safe, your mind is so clever";
-370;Cloudy;Mendung;adj;;"the sky looks cloudy, it look like it will rain";
-371;Comfortable;Nyaman;adj;;Are you comfortable here?;
-372;Coward;Pengecut;adj;;a coward will escape from life's problem;
-373;Crowded;Ramai;adj;;the Manggarai Station is really crowded during rush hour ;
-374;Cruel;Kejam;adj;;the robbers are very cruel. they don't hesitate to hurt or kill the victims;
-375;Delicious;Lezat;adj;;Rendang is one of the most delicious dishes in the world;
-376;Diligent;Rajin;adj;21/09/2025;"My brother is diligent about cleaning,  so he doesn't like messes";
-377;Disappointing;Mengecewakan;adj;;"what thing makes you disappointed?| Sorry, I have disappointed you|The movie was disappointing.";
-378;Dry;Kering;adj;;have your clothes dried?;
-379;Easy;Mudah;adj;;english isn't easy for me;
-380;Fair;Adil;adj;;"I hope, the goverment can be fair to the people";
-381;Fat;Gemuk;adj;;is being fat healthy?;
-382;Forgetful;Pelupa;adj;;"A: Sorry, I am forgot to bring my laptop; B: Okeyy, I know you're forgetful";
-383;Friendly;Ramah;adj;;"Indonesion people are very friendly when you meet them, but they really be terrifying on most social media";
-384;Funny;Lucu;adj;;You are the funniest men I have ever met;
-385;Fussy;Cerewet;adj;;woman is a fussy person in the family;
-386;Gloomy;Murung;adj;22/09/2025(belum cek);why do you look gloomy today?;
-387;Handsome;Tampan;adj;;am I handsome?;
-388;Happy;Senang;adj;;everybody is happy after being given social assistance ;
-389;Healthy;Sehat;adj;;we have to keep healthy in this situation;
-390;Honest;Jujur;adj;if only dipakai past tense;"if only the government were honest; I am sure we could become a developed country";
-391;Hot;Panas;adj;____;this afternoon is so hot;
-392;Humble;Rendah Hati;adj;"It + be + adj(cuaca,waktu,suhu)";keep humble even thought you are clever;
-393;Hungry;Lapar;adj;;I'm very hungry and thirsty after fasting for 12 hours;
-394;Impolite;Tidak Sopan;adj;really pake to be;you are really impolite;
-395;Kind;Baik Hati;adj;;she is kind person;
-396;Large;Luas;adj;;my bedroom looks like so large;
-397;Late;Terlambat;adj;;you don't be late;
-398;Lazy;Malas;adj;;"today, I sing song with title is lazy song";
-399;Long;Panjang;adj;;my cable of charge is too long;
-400;Noisy;Ribut / Gaduh;adj;;"please, don't be noise here";
-401;Patient;Sabar;adj;;what kind of person can be patient?;
-402;Polite;Sopan;adj;verb tidak perlu tambah prepos;we have to be polite when visiting a friend's house;
-403;Poor;Miskin;adj;;"don't be fashionable, we are still poor ";
-404;Proud (Of);Bangga;adj;;I so proud of you;
-405;Pure;Murni;adj;;"Mineral water comes from the mountain, so it is really pure";
-406;Ready;Siap;adj;;are you ready tommorow?;
-407;Real;Nyata;adj;;is it real?;
-408;Right;Benar;adj;;is my answer right?;
-409;Rude;Kasar;adj;;your words are so rude;
-410;Sad;Sedih;adj;many itu jamak;"don't be sad, you have still many chances";
-411;Satisfying;Memuaskan;adj;;the result is so satisfying;
-412;Selfish;Egois;adj;;you don't move forward if you are still selfish;
-413;Short;Pendek;adj;;You're short too;
-414;Shy;Pemalu;adj;;"I am shy, and I must overcome that shame by keeping communication";
-415;Sick;Sakit;adj;;"Sorry, I have sick today, and I have informed my leader as well";
-416;Slow;Pelan;adj;27/09/2025;I ride a motorcycle slowly;
-417;Small;Kecil;adj;;Stardew is a small city southeast of Pelican town;
-418;Stingy;Pelit;adj;;"there are many rich people, there are stingy";
-419;Strange;Aneh;adj;;This object has strange behavior;
-420;Strong;Kuat;adj;;"Come on, you are strong, you can cry, but don't give up";
-421;Stubborn;Keras Kepala;adj;;"don't be a stubborn person; it is stupid too";
-422;Stupid;Bodoh;adj;;"there are not stupid person,  only lazy person";
-423;Sunny;Cerah;adj;;Today the weather is clear and sunny all day;
-424;Sure;Yakin;adj;;"if only the government were honest; I am sure we could become a developed country";
-425;Sweet;Manis;adj;;This candy is very sweet;
-426;Tall;Tinggi;adj;;you are tall now. I remember two years ago. I was taller than you;
-427;Thin;Kurus;adj;;do you look so thin now?;
-428;Thirsty;Haus;adj;;I'm very hungry and thirsty after fasting for 12 hours;
-429;Tired;Lelah;adj;;"This situation makes me feel tired, I want to finish work quickly";
-430;Tiring;Melelahkan;adj;;this journey is very tiring;
-431;Wasteful;Boros;adj;;"to be rich, doesn't mean have to be wasteful";
-432;Weak;Lemah;adj;look like butuh subjek;"you are so weak too,it looks like you must train often to be strong";
-433;Wet;Basah;adj;;"my towel is still wet, I can't use it";
-434;Wild;Buas;adj;;he is wild in fighting too;
-435;Wise;Bijaksana;adj;;A wise person is someone who can control emotions well ;
-436;Wrong;Salah;adj;28/09/2025;I bought the wrong type of RAM for my computer;
-437;Although;meskipun;prepos;diikuti clause;You are look beautiful although it is use make up;
-438;Even though;meskipun;prepos;diikuti clause(perbedaannya mencolok);I keep got to lay off even though I have worked nicely;
-439;Despite;meskipun;prepos;"diikuti noun,pronoun,gerund";"despite the lost, I keep try to be strong";
-440;Meanwhile;sementara itu;prepos;;I try hard to look for a job meanwhile he can be easy to get a job;
-441;Therefore;oleh karena itu;prepos;;you are so different for the girls have met me therefore I feel love you;
-442;Then;kemudian;prepos;;if you can do it then I really happy;
-443;However;namun;prepos;/ bagaimanapun;I really have  the strong ability of logical thinking however my communication isn't enough well;
-444;In contrast;sebaliknya;prepos;membandingkan dua fakta/karakteristik yang berlawanan;"The north of the country is very cold. In contrast, the south is warm and sunny";
-445;On the other hand;sebaliknya;prepos;menunjukkan sudut pandang lain atau pertimbangan lain;"I want to buy a new phone. On the other hand, I should save money for my future needs";
-446;While;sementara;prepos;/ sedangkan/ sambil;you seek me to buy your lunch in the food park while it is the rain outside;
-447;So that;sehingga;prepos;/ maka / biasanya dipakai di percakapan sehari-hari;I spoke loudly so that everyone could hear me;
-448;In order that;sehingga;prepos;lebih formal dan jarang dipakai di percakapan;The teacher explained it again in order that the students would understand clearly;
-449;In order to;untuk;prepos;;I study hard in order to pass the exam.;
-450;In that case;dalam hal itu;prepos;kesimpulan dari situasi yang sudah disebutkan / dibicarakan sebelumnya;"Usually the rule is strict, but in this case we can make an exception";
-451;In this case;kalau begitu;prepos;/ untuk/ bagi;In this case you are fail to saved many people;
-452;Because;karena;prepos;;I'm lucky because I was given the ability to think logically by God;
-453;But;tapi;prepos;;"The game was hard, but i enjoyed it as a challange";
-454;When;ketika;prepos;30/09/2025;I was reading a book when you called me;
-455;Since;sejak;prepos;;;
-456;And;dan;prepos;;;
-457;Until;sampai;prepos;/ sehingga;;
-458;Till;sampai;prepos;/ sehingga;;
-459;Up to;Hingga;prepos;;;
-460;Unless;kecuali kalau;prepos;/ kalau tidak;;
-461;Whereas;sedangkan;prepos;/ padahal;;
-462;So;Oleh karena itu;prepos;;;
-463;Both.. and?;baik..;prepos;maupun..;;
-464;Not only.. but also;tdk hanya..;prepos;tapi juga..;;
-465;If only;seandainya;prepos;;;
-466;Supposing/ suppose that;seandainya;prepos;;;
-467;Lest;jangan sampai;prepos;/ agar tidak;;
-468;If then;jika kemudian;prepos;;;
-469;Than;daripada;prepos;;;
-470;Whenever;kapanpun;prepos;/ sewaktu-waktu;;
-471;Whether;apakah;prepos;;;
-472;Nor;maupun;prepos;;;
-473;Yet;namun;prepos;/ tapi;;
-474;Action;Tindakan;noun;;;
-475;Advice;Nasihat;noun;;;
-476;Agreement;Perjanjian;noun;;;
-477;Air;Udara;noun;;;
-478;Airplane;Pesawat Terbang;noun;;;
-479;Airport;Bandara;noun;;;
-480;Angle;Sudut;noun;;;
-481;Animal;Hewan;noun;;;
-482;Aunt;Bibi;noun;;;
-483;Ball;Bola;noun;;;
-484;Banana;Pisang;noun;;;
-485;Bed;Tempat Tidur;noun;;;
-486;Bedroom;Kamar Tidur;noun;;;
-487;Bike;Sepeda;noun;;;
-488;Bird;Burung;noun;;;
-489;Book;Book;noun;;;
-490;Car;Mobil;noun;;;
-491;Cat;Kucing;noun;;;
-492;Chicken;Ayam;noun;;;
-493;Child;Anak;noun;;;
-494;Children;Anak-Anak;noun;;;
-495;Cigarette;Rokok;noun;;;
-496;Circle;Lingkaran;noun;;;
-497;Coach;Pelatih;noun;;;
-498;College;Perguruan Tinggi;noun;;;
-499;Cow;Sapi;noun;;;
-500;Desk;Meja Tulis;noun;;;
-501;Device;Alat;noun;;;
-502;Dinner;Makan Malam;noun;;;
-503;Direction;Arah;noun;;;
-504;Disease;Penyakit;noun;;;
-505;Doll;Boneka;noun;;;
-506;Driver;Sopir;noun;;;
-507;Earthquake;Gempa Bumi;noun;;;
-508;Engine;Mesin;noun;;;
-509;Entertainment;Hiburan;noun;;;
-510;Father;Ayah;noun;;;
-511;Flag;Bendera;noun;;;
-512;Food;Makanan;noun;;;
-513;Football;Sepak Bola;noun;;;
-514;Friendship;Persahabatan;noun;;;
-515;Frog;Katak;noun;;;
-516;Funeral;Pemakaman;noun;;;
-517;Garbage;Sampah;noun;;;
-518;Ghost;Hantu;noun;;;
-519;Girl;Gadis;noun;;;
-520;Gun;Senjata;noun;;;
-521;Hall;Aula;noun;;;
-522;Hill;Bukit;noun;;;
-523;Homework;Pekerjaan Rumah;noun;;;
-524;Horse;Kuda;noun;;;
-525;Income;Pendapatan;noun;;;
-526;Independence;Kemerdekaan;noun;;;
-527;Insect;Serangga;noun;;;
-528;Island;Pulau;noun;;;
-529;Joke;Lelucon;noun;;;
-530;King;Raja;noun;;;
-531;Kite;Layang-Layang;noun;;;
-532;Lamp;Lampu;noun;;;
-533;Law;Hukum;noun;;;
-534;Lawyer;Pengacara;noun;;;
-535;Man;Manusia;noun;;;
-536;Mask;Topeng;noun;;;
-537;Math;Matematika;noun;;;
-538;Month;Bulan;noun;;;
-539;Mother;Ibu;noun;;;
-540;Movie;Film;noun;;;
-541;Night;Malam;noun;;;
-542;People;Orang-Orang;noun;;;
-543;Personality;Kepribadian;noun;;;
-544;Pleasure;Kesenangan;noun;;;
-545;Rabbit;Kelinci;noun;;;
-546;Road;Jalan;noun;;;
-547;Science;Ilmu;noun;;;
-548;Snake;Ular;noun;;;
-549;Society;Masyarakat;noun;;;
-550;Song;Lagu;noun;;;
-551;Station;Stasiun;noun;;;
-552;Sugar;Gula;noun;;;
-553;Summer;Musim Panas;noun;;;
-554;Sun;Matahari;noun;;;
-555;Table;Meja;noun;;;
-556;Tiger;Harimau;noun;;;
-557;Town;Kota;noun;;;
-558;Underwear;Pakaian Dalam;noun;;;
-559;Vacation;Liburan;noun;;;
-560;Vehicle;Kendaraan;noun;;;
-561;Warning;Peringatan;noun;;;
-562;Water;Air;noun;;;
-563;Wealth;Kekayaan;noun;;;
-564;Week;Minggu;noun;;;
-565;Wife;Istri;noun;;;
-566;Wood;Kayu;noun;;;
-567;Worker;Pekerja;noun;;;
-568;Writer;Penulis;noun;;;
-569;Year;Tahun;noun;;;
-570;I;saya;subject;;;
-571;you;kamu;subject/object; / Anda;;
-572;she;dia;subject; (perempuan);;
-573;it;itu;subject/object; (benda/hewan);;
-574;we;kami;subject; / kita;;
-575;they;mereka;subject;;;
-576;me;saya;object;;;
-577;him;dia;object; (laki-laki);;
-578;her;dia;object; (perempuan);;
-579;us;kami;object; / kita;;
-580;them;mereka;object;;;
-581;my;saya;adj;;;
-582;your;kamu;adj; / Anda;;
-583;his;dia;adj; (laki-laki);;
-584;its;itu;adj; (benda/hewan);;
-585;our;kami;adj; / kita;;
-586;their;mereka;adj;;;
-587;mine;saya;pronomina;;;
-588;yours;kamu;pronomina; / Anda;;
-589;hers;dia;pronomina; (perempuan);;
-590;ours;kami;pronomina; / kita;;
-591;theirs;mereka;pronomina;;;
-592;myself;saya;self;;;
-593;yourself;kamu;self; / Anda;;
-594;himself;dia;self; (laki-laki);;
-595;herself;dia;self; (perempuan);;
-596;itself;itu;self; (benda/hewan);;
-597;ourselves;kami;self; / kita;;
-598;themselves;mereka;self;;;
-599;this;ini;pronoun; (tunggal/ dekat);;
-600;that;itu;pronoun; (tunggal/ jauh);;
-601;these;ini;pronoun; (jamak/ dekat);;
-602;those;itu;pronoun; (jamak/ jauh);;
-603;who;siapa;pronoun;;;
-604;whom;siapa;pronoun; (objek);;
-605;whose;milik siapa;pronoun;;;
-606;what;apa;pronoun;;;
-607;which;yang mana;pronoun;;;
-608;never;tidak pernah;adv;;;
-609;ever;pernah;adv;;;
-610;often;sering;adv;;;
-611;rarely;Jarang;adv;;;
-612;attitude;sikap;verb;;;
-613;approach;Mendekati;prepos;;;
-614;Incident;Kejadian;noun;;;
-615;boys;anak laki-laki;noun;;;
-616;At the moment;Saat ini;;;;
-617;that use;yang menggunakan;;;;
-618;According to;Menurut;;;;
-619;seldom;Jarang;;;;
-620;Evidence;Bukti;;;;
-621;surroundings;Linkungan;noun;;;
-622;evidently;ternyata;;;;
-623;thus;hingga;;;;
-624;toward;terhadap;;;;
-625;excessively;berlebihan;;;;
-626;hardly;Hampir tidak;;;;
-627;;;;;;
-628;;;;;;
-629;;;;;;
-630;;;;;;
-631;;;;;;
-632;;;;;;
-633;;;;;;
-634;;;;;;
-635;;;;;;
-636;;;;;;
-637;;;;;;
-638;;;;;;
-639;;;;;;
-640;;;;;;
-641;;;;;;
-642;;;;;;
-643;;;;;;
-644;;;;;;
-645;;;;;;
-646;;;;;;
-647;;;;;;
-648;;;;;;
-649;;;;;;
-650;;;;;;
-651;;;;;;
-652;;;;;;
-653;;;;;;
-654;;;;;;
-655;;;;;;
-656;;;;;;
-657;;;;;;
-658;;;;;;
-659;;;;;;
-660;;;;;;
-661;;;;;;
-662;;;;;;
-663;;;;;;
-664;;;;;;
-665;;;;;;
-666;;;;;;
-667;;;;;;
-668;;;;;;
-669;;;;;;
-670;;;;;;
-671;;;;;;
-672;;;;;;
-673;;;;;;
-674;;;;;;
-675;;;;;;
-676;;;;;;
-677;;;;;;
-678;;;;;;
-679;;;;;;
-680;;;;;;
-681;;;;;;
-682;;;;;;
-683;;;;;;
-684;;;;;;
-685;;;;;;
-686;;;;;;
-687;;;;;;
-688;;;;;;
-689;;;;;;
-690;;;;;;
-691;;;;;;
-692;;;;;;
-693;;;;;;
-694;;;;;;
-695;;;;;;
-696;;;;;;
-697;;;;;;
-698;;;;;;
-699;;;;;;
-700;;;;;;
-701;;;;;;
-702;;;;;;
-703;;;;;;
-704;;;;;;
-705;;;;;;
-706;;;;;;
-707;;;;;;
-708;;;;;;
-709;;;;;;
-710;;;;;;
-711;;;;;;
-712;;;;;;
-713;;;;;;
-714;;;;;;
-715;;;;;;
-716;;;;;;
-717;;;;;;
-718;;;;;;
-719;;;;;;
-720;;;;;;
-721;;;;;;
-722;;;;;;
-723;;;;;;
-724;;;;;;
-725;;;;;;
-726;;;;;;
-727;;;;;;
-728;;;;;;
-729;;;;;;
-730;;;;;;
-731;;;;;;
-732;;;;;;
-733;;;;;;
-734;;;;;;
-735;;;;;;
-736;;;;;;
-737;;;;;;
-738;;;;;;
+No;Bahasa Inggris;Artinya;Jenis;Catatan;kalimat
+1;Always;Selalu;adverb;;I always go to school alone
+2;Actually;Sebenarnya;adverb;;"Actually, I go to school alone"
+3;Usually;Biasanya;adverb;;I usually go to work after breakfast
+4;Sometimes;Kadang-Kadang;adverb;;"Sometimes, I find it difficult to develop my career"
+5;Suddenly;Tiba-Tiba;adverb;;"Suddenly, I forgot my phone"
+6;After;Setelah;preposition/conj/adv;;I left my sister at home before i want to school
+7;Before;Sebelum;preposition/conj/adv;;I feel happy after eat it
+8;Accompany;Menemani;verb;;I will accompany you until afternoon
+9;Admire;Mengagumi;verb;;I admire your attitude toward me
+10;Adventure;Petualangan;noun;;I very excited about your adventure
+11;Affection;Kasih Sayang;noun;;Affection comes when i love someone
+12;Afraid;Takut;adjective;nothing tidak boleh ada tensen negatif;And yet I am not afraid of any problem that comes|there is nothing to be afraid of
+13;Afternoon;Sore;noun;;I go back to school every afternoon
+14;Alone;Sendirian;adjective;;I always walk aimlessly alone whenever i have problem
+15;Another;Yang Lain;adjective;;I don't have another choice
+16;Ant;Semut;noun;;This ant is very big
+17;Anything;Apapun;pronoun;;I can eat anything
+18;Anywhere;Di Manapun;adverb;;I can live anywhere
+19;Arrogant;Sombong;adjective;;They have an arrogant attitude|What can make me trust you?
+20;Autumn;Musim Gugur;noun;;We are approaching autumn
+21;Available;Tersedia;adjective;;This stuff is available now
+22;Average;Rata-Rata;adjective;;The average height of asian people is 170 cm
+23;Bathroom;Kamar Mandi;noun;;This bathroom is very smelly
+24;Behavior;Tingkah Laku;noun;;This object has strange behavior
+25;Behind;Dibelakang;preposition;;"At school,  I sit behind her "
+26;Believe;Percaya;verb;;"After the incident, I believe that you are my best friend"
+27;Beside;Di Samping;preposition;;I will always be beside you when no matter what happen
+28;Big;Besar;adjective;;This bag is very big|Who teams is become big4 in premier league 2025/2026 edition?
+29;Black & White;Hitam & Putih;adjective;;Your skin is black but it still looks sweet
+30;Blind;Tunanetra;adjective;;I am not blind|what are you blind?
+31;Blood;Darah;noun;;My blood comes from lord's clan
+32;Brain;Otak;noun;sp;the size of brain does not determine our intelligence
+33;Bread;Roti;noun;;Have you eaten the bread?
+34;Breakfast;Sarapan Pagi;noun;;Did you have breakfast?
+35;Bridge;Jembatan;noun;;I just passed the bridge
+36;Brother;Saudara;noun;untuk Laki-Laki;I have a brother and a sister
+37;Candle;Lilin;noun;;I light a candle when power outage
+38;Candy;Permen;noun;;This candy is very sweet
+39;Conversation;Percakapan;noun;;I understand enough about conversations in information technology
+40;Challenge;Tantangan;noun;;"The game was hard, but i enjoyed it as a challange"
+41;Chance;Peluang;noun;;I have chance to work overseas
+42;Change;Mengubah;verb;;I am trying to change for the better
+43;Childhood;Masa Kecil;noun;;What was your chilhood like?
+44;Church;Gereja;noun;;My home is near santa maria church
+45;Color;Warna;noun;;I don't know why i like the blue color? maybe blue is similar to the beautiful sky
+46;Company;Perusahaan;noun;;I have work experience in a few companies
+47;Confident;Percaya Diri;adjective;;I have to be confident when I present the project developing software app
+48;Congratulations!;Selamat!;noun;;"Congratulation, irwan, on your wedding today. Hopefully the marrige brings you happiness always"
+49;Country;Negara;noun;;Indonesia is a country has strange regulations which give advantages to goverment officials and rich people
+50;Crazy;Gila;adjective;;I feel crazy when i dont get a job for a few weeks
+51;Cry;Menangis;verb;;I won't cry about losing my job
+52;Curious;Penasaran;adjective;;"I am curious, how do people learn English quickly?"
+53;Cute;Imut;adjective;;I have a cute kitten
+54;Dangerous;Berbahaya;adjective;;"Be careful of that person, that person is very dangerous"
+55;Dark;Gelap;adjective;;This dark room can only seen by dirty people
+56;Date;Tanggal;noun;;The 29th date is special for my wife
+57;Daughter;Anak Perempuan;noun;;I hope my second child will be daughter
+58;Day;Hari;noun;;The day after tomorrow is my day off
+59;Different;Berbeda;adjective;have=jamak/has=singular/satuan;I asked different people about how they survived the economic crisis?|each person has a different abilities
+60;Difficult;Sulit;adjective;;I can't answer difficult questions
+61;Dirty;Kotor;adjective;;My shirt looks dirty
+62;Disappear;Menghilang;verb;;I will disappear from crowd
+63;Disaster;Bencana;noun;;The earthquake is a natural disaster that is unpredictable
+64;Disgusting;Menjijikan;adjective;;Something yo do is disgusting
+65;Distance;Jarak;noun;;The distance between my home and your home is very long
+66;Door;Pintu;noun;;Why that those doors always open after the rain?
+67;Dream;Mimpi;noun;;I have a dream to work overseas
+68;Earth;Bumi;noun;;"This earth is old, and we should save it together"
+69;Education;Pendidikan;noun;;Education is a part of life that is very important for a better life
+70;Enough;Cukup;adverb;;This place doesn't have enough air
+71;Environment;Lingkungan;noun;;"At the moment, The jalin project has been deployed to the production environment"
+72;Evening;Malam Hari;noun;;"In the evening, I usually pray to Allah so that life becomes easier"
+73;Every;Setiap;adjective;;"On average, every car has four seats"
+74;Everybody;Semua Orang;pronoun;;"Hello everybody, this time I explain how to become a clever programmer and finish problem-solving in every project"
+75;Every Day;Setiap Hari;pronoun;;"Every day, you should complete problem solving tasks on The Hackerrank platform using any programming language, with minimum of ten questions"
+76;Everything;Segalanya;pronoun;;"Money isn't everything, It just a tool to make life easier"
+77;Everywhere;Dimana-Mana;adverb;;"Everywhere we go, I feel happy with you"
+78;Expensive;Mahal;adjective;;Lamborgini is one of the most expensive car brands
+79;Experience;Pengalaman;noun;;I have 3 years of experience as a Java programmer
+80;Expert;Ahli;noun;;I am an expert in using Java Springboot and Integration Server for application development
+81;Extraordinary;Luar Biasa;adjective;;Your extraordinary abilities are very rare
+82;Family;Keluarga;noun;;I am from a middle-class family that does have any privileges
+83;Famous;Terkenal;adjective;;Java is one of most famous programming languages that uses the object-oriented concept
+84;Farmer;Petani;noun;;"In Indonesia, farmers is one of most undesirable professions for Gen Z"
+85;Fast;Cepat;adjective;;A plane is the fastest form of transportation and provide good security
+86;Father & Mother;Ayah & Ibu;noun;;"I proud to have an amazing father, he works tirelessly for our family"
+87;Feel;Merasa;verb;;I feel curios about how a computer works in processings data
+88;Field;Lapangan;noun;;I play soccer in th neighboring village field
+89;Rice-Field;Sawah;noun;;In jakarta is there are no rice fields
+90;Finger;Jari;noun;;My mother's finger hurts
+91;Fish;Ikan;noun;;Fish has swum from downstream to upstream
+92;Flood;Banjir;noun;;The fload has lasted for two days
+93;Floor;Lantai;noun;;I work on the 22nd floor at Pakuwon Tower
+94;Flower;Bunga;noun;;A sunflower is one of most beautiful flowers
+95;For;Untuk;preposition;;The fload has lasted for two days
+96;Forest;Hutan;noun;;How to survive when you are lost in the forest?
+97;Forever;Selamanya;adverb;;"Actually, What do we want in live ? To live forever?"
+98;Forget;Lupa;verb;Setelah to harus bentuk dasar(V1);I forgot today is your birthday|I forgot to buy sugar
+99;Forgive;Memaafkan;verb;;I forgive all your mistakes
+100;Freedom;Kebebasan;noun;19-agustus2025;Freedom of life is when goverment makes rule based on aspiration of the people's
+101;Friend;Teman;noun;; My friends and I are going to cinema to watch a Kimetsu no yaiba film
+102;Fruits;Buah-Buahan;noun;;I bring different kinds of a fruits to the office
+103;Future;Masa Depan;noun;;A bright future will achieve when you do your best
+104;Garden;Kebun;noun;;Fruits Garden is a good place to introduce different kinds of fruit to children
+105;Generous;Dermawan;adjective;;The are Generous people everywhere in the world
+106;Get;Mendapatkan;verb;;I try to get up early in the morning today
+107;Give;Memberi;verb;;I will give you one more chance
+108;Government;Pemerintah;noun;;Indonesia is a country has strange regulations which give advantages to goverment officials and rich people
+109;Grade;Tingkat;noun;;"I studied at SMPN 1 Cikupa, In the second grade, one of my friend from my previous class and I was placed in class C"
+110;Grandfather;Kakek;noun;;I have two grandfathers and three grandmothers
+111;Grandmother;Nenek;noun;;I have two grandfathers and three grandmothers
+112;Grass;Rumput;noun;;The grass on the school field is very long
+113;Guest;Tamu;noun;;My guest will stay the night
+114;Habit;Kebiasaan;noun;;Habits start from yourself
+115;Hair;Rambut;noun;;I have curly blue hair
+116;Have;Memiliki;verb ;;I have curly blue hair
+117;He;Dia;pronoun;untuk Laki-Laki;"He is my brother. currently, he studies at Semarang University"
+118;Health;Kesehatan;noun;;"Suddenly, The Health has become important  comodity in todays business"
+119;Heart;Hati;noun;;I had a broken heart 
+120;Heaven;Surga;noun;22-agt-2025;"Labuhan Bajo is a beautiful place, and I feel like I'm in heaven "
+121;Hell;Neraka;noun;;"Actually, this hot weather is just 0.00001% of hell"
+122;Here;Disini;adverb;;"Hello, where are you now(scream)? I'm here, bro"
+123;History;Sejarah;noun;;This room has a lot of unforgettable history
+124;Holiday;Liburan;noun;;Was your holiday fun?
+125;Honey;Madu;noun;;"This honey has a unique taste; it is mix of sour and sweet flavors"
+126;Honour;Kehormatan;noun;;It is honour to be the best programmer at tangerang city
+127;Horrible;Mengerikan;adjective;;The incident is very horriable
+128;Hospital;Rumah Sakit;noun;;RSUD is one of regional hospitals that belongs to the state
+129;Hungry & Thirsty;Lapar & Haus;adjective;;I'm very hungry and thirsty after fasting for 12 hours
+130;Ignore;Mengabaikan;verb;if perlu subjek;"Why are you ignoring me about this?|Don't try to ignore me; if you do, you will face the consequences"
+131;Important;Penting;adjective;;"As a Software Engineer, trying to learn new things is important"
+132;Impossible;Mustahil;adjective;;"I keep trying english, although it feels a little impossible for me"
+133;Interesting;Menarik;adjective;;IT and English are interesting lessons
+134;Introduce;Memperkenalkan;verb;;I will introduce my self
+135;Jealous;Cemburu;adjective;23-agt-2025;I'm jealous to people who have good communication skills
+136;Journey;Perjalanan;noun;;This journey is very tiring
+137;Kitchen;Dapur;noun;;I cook roasted steak
+138;Know;Tahu;verb;;We will know what kind of person we are when we are given life's problems
+139;Knowledge;Pengetahuan;noun;;"according to my friend, my knowledge of IT is very impressive, but I don't feel like that way"
+140;Lake;Danau;noun;;Lake Toba is one of the biggest lakes in Indonesia
+141;Landscape;Pemandangan;noun;;Lake Toba has beautiful landscapes
+142;Language;Bahasa;noun;;"This time, I can only speak Indonesian. so, that's why I try learn English | The world has tens of thousands of different languages"
+143;Loyal;Setia;adjective;;What does it mean by loyal?
+144;Library;Perpustakaan;noun;;I go to the library every weeks
+145;Life;Kehidupan;noun;;Will my life change after I  learn a few new things?
+146;Line;Garis;noun;;I measured the coastline of Sawarna beach to be about 3 miles long
+147;Lonely;Kesepian;adjective;;"At that time, I felt like a lonely person"
+148;Lucky;Beruntung;adjective;;I'm lucky because I was given the ability to think logically by God
+149;Magazine;Majalah;noun;;I'm reading a Kompas magazine
+150;Make;Membuat;verb;24-agt-2025;I will make you happy
+151;Matchmaker;Mak Comblang;noun;;I was your matchmaker
+152;Maybe;Mungkin;adverb;;Maybe I late to back home
+153;Midnight;Tengah Malam;noun;;"New year has come, so tonight there will be a fireworks display at midnight "
+154;Milk;Susu;noun;;It's been long time since I drank milk
+155;Mind;Pikiran;noun;25-agt-2025;My mind will determine my future
+156;Mistake;Kesalahan;noun;;Sorry to my soul for mistakes of the past
+157;Money;Uang;noun;;"money isn't everything, It just a tool to make life easier"
+158;Moon;Bulan;noun;;"If I can't be the sun, then let me be the moon for you"
+159;Morning;Pagi;noun;;Every morning I thank God for the health he has given me
+160;Mosque;Masjid;noun;;My home is near the Al-ikhlasiyah Mosque
+161;Mountain;Gunung;noun;;The Himalayas are one of the longest mountain ranges in the world
+162;Nature;Alam;noun;;Some villages of Indonesia still have pristine and cool natural surroundings
+163;Naughty;Nakal;adjective;;I was naughty in my childhood
+164;Near/ Far;Dekat/ Jauh;adverb;;The ball fell down near the grass
+165;Neighbour;Tetangga;noun;27-agt-2025;"Luckily, I have a nice neighbour"
+166;Nervous;Gugup;adjective;;I feel nervous before I present my work to the leader
+167;New;Baru;adjective;;I will begin a new journey after being laid off from work 
+168;News;Berita;noun;;"Every morning , I read news article on the web"
+169;Newspaper;Koran;noun;;The newspaper is an outdated medium
+170;Nobody;Tak Seorang Pun;pronoun;;Nobody care about your achivement
+171;North;Utara;noun;;"My love is lives in Medan, North Sumatera "
+172;Ocean;Lautan;noun;;The Pacific  is one of the widest oceans in the world
+173;Office;Kantor;noun;;I walk to the office every workday 
+174;Onion;Bawang;noun;;Onion is one of the important ingredients for cooking fried rice
+175;Open;Buka;noun;28-agt-2025;I opened the door after the rain
+176;Opportunity;Kesempatan;noun;;"Hello, My name is irwan, and I seeking new opportunity in the IT Industry"
+177;Ordinary;Biasa;adjective;;"I just an ordinary men, not rich and not extraordinary"
+178;Paper;Kertas;noun;;I writing my name on a piece of paper
+179;Park;Taman;noun;;I play badminton on the field at the city park
+180;Parents;Orang Tua;noun;Untuk Ayah & Ibu;"Luckily, I have both of my parents and they always support me in any situation"
+181;Party;Pesta;noun;;I was not invited to the club party 
+182;Passenger;Penumpang;noun;;The passengers are sitting the waiting room for about 2 hours to wait for the plane to take off
+183;Perfect;Sempurna;adjective;;Nobody is a perfect human in the world
+184;Path;Jalan Setapak;noun;;Please follow this path and you will see the way out
+185;Picture;Gambar;noun;;I take your picture
+186;Place;Tempat;noun;;This place is so amazing
+187;Pocket;Saku;noun;;My pocket only contain a wallet 
+188;Poem;Sajak;noun;;This poem is truly poetic
+189;Punishment;Hukuman;noun;;I hope the corruptors are given a serious punisment
+190;Purpose;Tujuan;noun;29-agt-2025;This life has a purpose
+191;Question;Pertanyaan;noun;;I have one question for you.
+192;Rain;Hujan;noun;;The rainbow will be seen after the rain  
+193;Really;Benar-Benar;adverb;;I am really happy after I am got the job offer
+194;Remember;Ingat;verb;;"Now, I remember your attitude toward me"
+195;Respect;Menghormati;verb;;"I respect my ex-leader, he gave me a lot support"
+196;Responsible;Bertanggung Jawab;adjective;;I am responsible for what did I
+197;Rice;Nasi;noun;;"evidently, this fried rice is very spicy"
+198;Rich;Kaya;adverb;;"Everybody wants to be a rich people but only some people make the effort|I am just an ordinary men, not rich and not smart"
+199;Reason;Alasan;noun;;You need to have strong reasons to change your life
+200;River;Sungai;noun;31-agt-2025;The Cisadane is one of the river in the tangerang
+201;Roof;Atap;noun;Starting;The roof of my house is leaking
+202;Schedule;Jadwal;noun;;"Every day ,the flight schedules change "
+203;Secret;Rahasia;adjective;;The secret room isn't open to anybody
+204;Simple;Sederhana;adjective;;This is the simplest way to escape the room|let's think in the a simple way 
+205;Smart;Pintar;adjective;; smart people are real
+206;Smile;Tersenyum;adjective;;Your smile is so sweet
+207;Soldier;Tentara;noun;;The soldiers must protect people in that country
+208;Some;Beberapa;pronomina;;Some provinces still have bad leaders
+209;Someone;Seseorang;pronomina;;I hope she is someone from my dreams
+210;Something;Sesuatu;pronomina;;I got something important about a Docker
+211;Somewhere;Suatu Tempat;pronomina;;"Somewhere out there, I was found"
+212;Story;Cerita;noun;;My story is extraordinary to tell to many people
+213;Survival;Bertahan Hidup;noun;;I must a surviva in this situation
+214;Teacher;Guru;noun;;My teacher is my mentor and a big part of my experience
+215;Together;Bersama;adverb;;They go back to school together
+216;Train;Kereta Api;noun;;I take the train from kualanamu airport to the medan station
+217;Tree;Pohon;noun;;There is a mango tree behind my house
+218;Uniform;Seragam;noun;;My school has a unique uniform
+219;Useful;Bermanfaat;adjective;04/09/2025;is the Docker tutorial useful?
+220;Useless;Tidak Bermanfaat;adjective;;"You shouldn't just scroll Tiktok every day, it's not useless"
+221;Vegetable;Sayuran;noun;;Is a tomato a vegetable or a fruit?
+222;Victory;Kemenangan;noun;;I achieved victory in the local Tekken tournament
+223;Village;Desa;noun;;Every village in Indonesia is getting 5M from the goverment to develop the village
+224;Vulnerable;Rentan;adjective;;This core banking system has a vulnerable setup that must be repaired
+225;Wall;Dinding;noun;;The Great Wall of China is one of the largest walls is considered a wonder of the world 
+226;War;Perang;noun;;"World War II happened between 1939 to 1945, lasting six years"
+227;Weather;Cuaca;noun;;Is weather very hot today ?
+228;Window;Jendela;noun;;"Every morning, I open the window in my bedroom until noon"
+229;Wonderful;Sangat Bagus;adjective;;This landscape is wonderful
+230;World;Dunia;noun;05/09/2025;This world is very big
+231;Speak;Berbicara;verb;;"This time, I can only speak Indonesian. so, that's why I try learn English | The world has tens of thousands of different languages"
+232;Listen;Mendengarkan;verb;;"Please, once listen to me "
+233;Smile - Tell;Tersenyum - Mengatakan;verb;;Your smile is so sweet
+234;Laugh;Tertawa;verb;;I laughed when I heard that
+235;Sleep;Tidur;verb;;I try to sleep before midnight
+236;Invite;Mengundang;verb;;"Tomorrow, I invite you to come to my house"
+237;Visit;Mengunjungi;verb;;"Yesterday, I saw you visiting your grandparents' house"
+238;Meet;Bertemu;verb;;Can we meet again later?
+239;Eat;Makan;verb;;What do you want to eat?
+240;Drink;Minum;verb;;What is your favorite drink?
+241;Bring;Membawa;verb;;"Tomorrow, don't forget to bring my book"
+242;Follow;Mengikuti;verb;;Who are the great people you follow?
+243;Take;Mengambil;verb;;Can you take me to the UKS ?
+244;Sit;Duduk;verb;;Do you want to sit beside me?
+245;Stand;Berdiri;verb;;"everybody, stand up please"
+246;Run;Berlari;verb;;When was the last time you went for a morning run?
+247;Walk;Berjalan;verb;;Is walking healthy for us?
+248;Wait;Menunggu;verb;a -> benda blm spesifik/bs dihitung;Please keep waiting here for a while
+249;Work;Bekerja;verb;;"This situation makes me feel tired, I want to finish work quickly"
+250;Watch;Menonton;verb;;I am watching SpongeBobs SquarePants
+251;Teach;Mengajar;verb;;I will teach you the basics of programming
+252;Read;Membaca;verb;;Have you read the Kimetsu manga? How is the storyline?
+253;Write;Menulis;verb;;Will you write me a letter after go back home?
+254;Study;Belajar;verb;;When was the last time you studied English?
+255;Put;Meletakan;verb;;Where did you put the glass earlier?
+256;Prepare;Mempersiapkan;verb;;Have you prepared the test for tomorrow ?
+257;Explain;Menjelaskan;verb;;I hope you can explain it well
+258;Describe;Menggambarkan;verb;;Can you describe the behavior of corruptor?
+259;Think;Berpikir;verb;07/09/2025;I think I need to sleep now
+260;Advise;Menasehati;verb;;My mom try to advise my brother not to be extravagant 
+261;Attend;Menghadiri;verb;;I attended the meeting at 9 AM to follow the Jalin testing 
+262;Persuade;Membujuk;verb;;I need to persuade my wife to allow me to play badminton with my work colleague
+263;Buy;Membeli;verb;;I bought the wrong type of RAM for my computer
+264;Sell;Menjual;verb;;I need to sell my RAM on the marketplace
+265;Pay;Membayar;verb;;I always pay for my wife's skincare
+266;Borrow;Meminjam;verb;;Can I borrow Rp. 50.000 from you?
+267;Lend;Meminjamkan;verb;;Why did you lend him money yesterday?
+268;Go;Pergi;verb;;Where am I going the next?
+269;Come;Datang;verb;;Don't forget to come Beni's house tomorrow
+270;Receive;Menerima;verb;;Did you receive the letter from the L Company?
+271;Refuse;Menolak;verb;;I refused to request the CSCC document yesterday
+272;Choose;Memilih;verb;;I didn't choose the jobs I wanted
+273;Hope;Mengharapkan;verb;08/09/2025;I hope the government can understand the people
+274;Remind;Mengingatkan;verb;whole cocok untuk benda tunggal| remaind lebih cocok dengan about dan to;Did you remind him aboout justice in all of Indonesia?
+275;Decide;Memutuskan/menentukan;verb;setelah from harus noun;What was the result of the decision yesterday? | I will decide a lot tomorrow
+276;Try;Mencoba;verb;;How much time do you spend training Tekken to become an expert?|I try again
+277;Call;Memanggil;verb;;Can you call the ambulance now?
+278;Mention;Menyebut;verb;setelah for Verb harus +ing;Don't forget to mention mr. Wan for developing the Jalin project
+279;Insult;Menghina;verb;;better to be quiet than to insult
+280;Praise;Memuji;verb;someone tidak perlu artikel;Don't ever praise someone excessively
+281;Catch;Menangkap;verb;inget are itu butuh verb ing;Are you catching me?
+282;Blame;Menyalahkan;verb;tanpa article->nm orang/banyak/tdk bs dihitung;I don't know who should be blamed in this situation
+283;Add;Menambahkan;verb;the -> benda spesifik/diketahui;Please add me to the WA group 
+284;Keep;Menjaga;verb;these diikuti kata jamak;Please keep this secret from your friends
+285;Cut;Memotong;verb;;Are you cutting the grass behind your home?
+286;Share;Berbagi;verb;;Please share this information with people of the village
+287;Divide;Membagi;verb;;I will try to divide this cake fairly
+288;Join;Bergabung;verb;;Can I join the Java Community?
+289;Agree;Menyetujui;verb;;I agree with this decision
+290;Avoid;Menghindari;verb;09/09/2025;I try to avoid the nail trap
+291;See;Melihat;verb;recently cocok dengan V3;Have you seen beni this way recently?
+292;Leave;Meninggalkan;verb;will cocok future tense;Will we leave her alone here?
+293;Admit;Mengakui;verb;verb ini cocok untuk mengakui sesuatu yg sulit;I admit my mistake
+294;Affect;Mempengaruhi;verb;;Your words affected me yesterday
+295;Allow;Mengizinkan;verb;;Why are you allowing him to enter?
+296;Answer;Menjawab;verb;;"What is your answer, Andy?"
+297;Attack;Menyerang;verb;;How do we attack them quickly?|Let go and attack the bottom tower together
+298;Build;Membangun;verb;had itu untuk masa lalu;What building are you building ?
+299;Care;Peduli;verb;Do=pertanyaan ada main verb;Do you care about Indonesion people?
+300;Clean;Membersihkan;verb;;Have you cleaned your hand?
+301;Compare;Membandingkan;verb;between digunakan untu membandingkan;"Before Deni bought a computer, he compared its price between Istana Komputer and MSI "
+302;Contain;Mengandung;verb;;Does this food contain lard?
+303;Cook;Memasak;verb;like setelah kata kerja diikuti ing;Do you like cooking?
+304;Create;Menciptakan;verb;ever untuk ? dan negatif;I once created a PHP micro framework for my final project at Pamulang University
+305;Disturb;Mengganggu;verb;;Please don't disturb me when I am sleeping
+306;Encourage;Mendorong;verb;bedanya dgn push;I encourage myself to believe in destiny
+307;Expand;Memperluas;verb;;The MNC Group is expanding its business into the horse farm
+308;Extend;Memperpanjang;verb;;Everybody hopes to extend the contract at the workplace
+309;Guide;Membimbing/memandu;verb;;Would you guide me in Japan?
+310;Increase;Meningkatkan;verb;;I want to increase my income by become freelance of the back-end developer
+311;Lie;Berbohong;verb;;Why are you lying to me?
+312;Like;Menyukai;verb/preposition;;What do you like from me ?
+313;Overcome;Mengatasi;verb;;How do overcome problems that come?
+314;Pretend;Berpura-Ura;verb;;Please stop pretend to me
+315;Punish;Menghukum;verb;;Are you punish my Tekken character?
+316;Reflect;Mencerminkan;verb;;Your child's behavior reflect who you 
+317;Replace;Menggantikan;verb;;I replace your position while
+318;Find;Menemukan;verb;13/09/2025;Can you find me?
+319;Ask;Bertanya;verb;;"if you are confused, just ask me"
+320;Want;Ingin;verb;kalau pakai keterangan waktu pakai for;I want to rest for a while
+321;Promise;Berjanji;verb;;Can are you promising to keep with me?
+322;Save;Menyimpan;verb;;I saved your number
+323;Understand;Mengerti;verb;enough di pakai setelah V1 dan ADJ;I understand enough about the problem that is happening
+324;Prove;Membuktikan;verb;;can you prove that I am at fault?
+325;Say;Mengatakan;verb;;what did you just say for a moment ago?
+326;Sing;Bernyanyi;verb;;I want to sing a mellow song
+327;Spend;Menghabiskan;verb;14/09/2025;how much money did you spend on your wedding?
+328;Spare;Meluangkan;verb;"few=bisa dihitung, little=tdk bs dihitung";I spare a little time to practice speaking and listening in English
+329;Swear;Bersumpah;verb;;Can you swear to don't leave me alone?
+330;Swim;Berenang;verb;;Can you swim?
+331;Sweep;Menyapu;verb;;Nemanja Vidic sweeps the ball when there is a dangerous situation
+332;Wash;Mencuci;verb;always harus dengan v1;My mom always washes my dirty clothes
+333;Tear;Merobek;verb;;Can you help me tear that banner?
+334;Touch;Menyentuh;verb;;Don't touch my head
+335;Trap;Menjebak;verb;;"Please be careful, there is a trap here"
+336;Wear;Memakai;verb;"that given  salah, karena perlu bentuk pasif: that were given (yang diberikan)";I wear clothes that were given to me by my love
+337;Wish;Berharap;verb;"verb ini past tense cocok untuk penyesalan/imajinasi, Now ? wish + past simple;Past ? wish + past perfect;Future ? wish + would/could";I wished to get married last year
+338;Count;Menghitung;verb;;"Can do you count down, starting from three before we begin the game?"
+339;Kick;Menendang;verb;;I kick the ball hard
+340;Forbid;Melarang;verb;;Can you forbid benny to go ?
+341;Bite;Menggigit;verb;;"This dog tried to bite me, but I ran away"
+342;Draw;Menggambarkan/menggambar;verb;bedanya dgn describe;I can't draw well
+343;Push;Mendorong;verb;;please push the door from the inside
+344;Pull;Menarik;verb;bedanya dgn withdraw;I pulled the latest resources from the Github
+345;Fold;Melipat;verb;;please help me fold all the newspapers
+346;Guess;Menebak;verb;;Can you guess what that pose is?
+347;Blow;Meniup;verb;;I blow up my ballon to burst
+348;Chew;Mengunyah;verb;;Please chew properly
+349;Reach;Meraih;verb;;I can't reach it
+350;Repair;Memperbaiki;verb;;what is the most recommend place to repair my laptop
+351;End;Mengakhiri;verb;;I will end this discussion today
+352;Withdraw;Menarik;verb;17/09/2025;"My phone is broken,so I can't use mobile banking. I need to withdraw money from the ATM to buy something"
+353;Absurd;Konyol;adjective;;why do you like kind of absurd stand-up comedy?
+354;Amazing;Menakjubkan;adjective;;This landscape is looks amazing from here 
+355;Angry;Marah;adjective;;Are you angry with me?
+356;Annoying;Menjengkelkan/mengganggu;adjective;prepos adj with atau at;your habits are really annoying
+357;Beautiful;Cantik;adjective;;You're beautiful girl
+358;Bitter;Pahit;adjective;;this americano coffee is so bitter
+359;Boring;Membosankan;adjective;;what attitude makes you feel bored?|this movie is boring
+360;Brave;Berani;adjective;;Be brave to attack and protect your friends
+361;Busy;Sibuk;adjective;;"sorry, I am busy now"
+362;Careful;Hati-Hati;adjective;;"Be careful of that person, that person is very dangerous"
+363;Careless;Ceroboh;adjective;19/09/2025;Don't be careless
+364;Charming;Menawan;adjective;;"Today, your attitude is so charming,"
+365;Cheap;Murah;adjective;;Where did you buy that stuff?is the price cheap?
+366;Cheerful;Ceria;adjective;;the children are looking cheerful
+367;Childish;Kekanak-Kanakan;adjective;;I know I still look childish
+368;Clear;Jelas/terang/bersih;adjective;20/09/2025;This zone is clear
+369;Clever;Pintar;adjective;;"Finally we are safe, your mind is so clever"
+370;Cloudy;Mendung;adjective;;"the sky looks cloudy, it look like it will rain"
+371;Comfortable;Nyaman;adjective;;Are you comfortable here?
+372;Coward;Pengecut;adjective;;a coward will escape from life's problem
+373;Crowded;Ramai;adjective;;the Manggarai Station is really crowded during rush hour 
+374;Cruel;Kejam;adjective;;the robbers are very cruel. they don't hesitate to hurt or kill the victims
+375;Delicious;Lezat;adjective;;Rendang is one of the most delicious dishes in the world
+376;Diligent;Rajin;adjective;21/09/2025;"My brother is diligent about cleaning,  so he doesn't like messes"
+377;Disappointing;Mengecewakan;adjective;;"what thing makes you disappointed?| Sorry, I have disappointed you|The movie was disappointing."
+378;Dry;Kering;adjective;;have your clothes dried?
+379;Easy;Mudah;adjective;;english isn't easy for me
+380;Fair;Adil;adjective;;"I hope, the goverment can be fair to the people"
+381;Fat;Gemuk;adjective;;is being fat healthy?
+382;Forgetful;Pelupa;adjective;;"A: Sorry, I am forgot to bring my laptop; B: Okeyy, I know you're forgetful"
+383;Friendly;Ramah;adjective;;"Indonesion people are very friendly when you meet them, but they really be terrifying on most social media"
+384;Funny;Lucu;adjective;;You are the funniest men I have ever met
+385;Fussy;Cerewet;adjective;;woman is a fussy person in the family
+386;Gloomy;Murung;adjective;22/09/2025(belum cek);why do you look gloomy today?
+387;Handsome;Tampan;adjective;;am I handsome?
+388;Happy;Senang;adjective;;everybody is happy after being given social assistance 
+389;Healthy;Sehat;adjective;;we have to keep healthy in this situation
+390;Honest;Jujur;adjective;if only dipakai past tense;"if only the government were honest; I am sure we could become a developed country"
+391;Hot;Panas;adjective;____;this afternoon is so hot
+392;Humble;Rendah Hati;adjective;"It + be + adj(cuaca,waktu,suhu)";keep humble even thought you are clever
+393;Hungry;Lapar;adjective;;I'm very hungry and thirsty after fasting for 12 hours
+394;Impolite;Tidak Sopan;adjective;really pake to be;you are really impolite
+395;Kind;Baik Hati;adjective;;she is kind person
+396;Large;Luas;adjective;;my bedroom looks like so large
+397;Late;Terlambat;adjective;;you don't be late
+398;Lazy;Malas;adjective;;"today, I sing song with title is lazy song"
+399;Long;Panjang;adjective;;my cable of charge is too long
+400;Noisy;Ribut / Gaduh;adjective;;"please, don't be noise here"
+401;Patient;Sabar;adjective;;what kind of person can be patient?
+402;Polite;Sopan;adjective;verb tidak perlu tambah prepos;we have to be polite when visiting a friend's house
+403;Poor;Miskin;adjective;;"don't be fashionable, we are still poor "
+404;Proud (Of);Bangga;adjective;;I so proud of you
+405;Pure;Murni;adjective;;"Mineral water comes from the mountain, so it is really pure"
+406;Ready;Siap;adjective;;are you ready tommorow?
+407;Real;Nyata;adjective;;is it real?
+408;Right;Benar;adjective;;is my answer right?
+409;Rude;Kasar;adjective;;your words are so rude
+410;Sad;Sedih;adjective;many itu jamak;"don't be sad, you have still many chances"
+411;Satisfying;Memuaskan;adjective;;the result is so satisfying
+412;Selfish;Egois;adjective;;you don't move forward if you are still selfish
+413;Short;Pendek;adjective;;You're short too
+414;Shy;Pemalu;adjective;;"I am shy, and I must overcome that shame by keeping communication"
+415;Sick;Sakit;adjective;;"Sorry, I have sick today, and I have informed my leader as well"
+416;Slow;Pelan;adjective;27/09/2025;I ride a motorcycle slowly
+417;Small;Kecil;adjective;;Stardew is a small city southeast of Pelican town
+418;Stingy;Pelit;adjective;;"there are many rich people, there are stingy"
+419;Strange;Aneh;adjective;;This object has strange behavior
+420;Strong;Kuat;adjective;;"Come on, you are strong, you can cry, but don't give up"
+421;Stubborn;Keras Kepala;adjective;;"don't be a stubborn person; it is stupid too"
+422;Stupid;Bodoh;adjective;;"there are not stupid person,  only lazy person"
+423;Sunny;Cerah;adjective;;Today the weather is clear and sunny all day
+424;Sure;Yakin;adjective;;"if only the government were honest; I am sure we could become a developed country"
+425;Sweet;Manis;adjective;;This candy is very sweet
+426;Tall;Tinggi;adjective;;you are tall now. I remember two years ago. I was taller than you
+427;Thin;Kurus;adjective;;do you look so thin now?
+428;Thirsty;Haus;adjective;;I'm very hungry and thirsty after fasting for 12 hours
+429;Tired;Lelah;adjective;;"This situation makes me feel tired, I want to finish work quickly"
+430;Tiring;Melelahkan;adjective;;this journey is very tiring
+431;Wasteful;Boros;adjective;;"to be rich, doesn't mean have to be wasteful"
+432;Weak;Lemah;adjective;look like butuh subjek;"you are so weak too,it looks like you must train often to be strong"
+433;Wet;Basah;adjective;;"my towel is still wet, I can't use it"
+434;Wild;Buas;adjective;;he is wild in fighting too
+435;Wise;Bijaksana;adjective;;A wise person is someone who can control emotions well 
+436;Wrong;Salah;adjective;28/09/2025;I bought the wrong type of RAM for my computer
+437;Although;meskipun;preposition;diikuti clause;You are look beautiful although it is use make up
+438;Even though;meskipun;preposition;diikuti clause(perbedaannya mencolok);I keep got to lay off even though I have worked nicely
+439;Despite;meskipun;preposition;"diikuti noun,pronoun,gerund";"despite the lost, I keep try to be strong"
+440;Meanwhile;sementara itu;preposition;;I try hard to look for a job meanwhile he can be easy to get a job
+441;Therefore;oleh karena itu;preposition;;you are so different for the girls have met me therefore I feel love you
+442;Then;kemudian;adverb;;if you can do it then I really happy
+443;However;namun;preposition;/ bagaimanapun;I really have  the strong ability of logical thinking however my communication isn't enough well
+444;In contrast;sebaliknya;preposition;membandingkan dua fakta/karakteristik yang berlawanan;"The north of the country is very cold. In contrast, the south is warm and sunny"
+445;On the other hand;sebaliknya;preposition;menunjukkan sudut pandang lain atau pertimbangan lain;"I want to buy a new phone. On the other hand, I should save money for my future needs"
+446;While;sementara;preposition;/ sedangkan/ sambil;you seek me to buy your lunch in the food park while it is the rain outside
+447;So that;sehingga;preposition;/ maka / biasanya dipakai di percakapan sehari-hari;I spoke loudly so that everyone could hear me
+448;In order that;sehingga;preposition;lebih formal dan jarang dipakai di percakapan;The teacher explained it again in order that the students would understand clearly
+449;In order to;untuk;preposition;;I study hard in order to pass the exam.
+450;In that case;dalam hal itu;preposition;kesimpulan dari situasi yang sudah disebutkan / dibicarakan sebelumnya;"Usually the rule is strict, but in this case we can make an exception"
+451;In this case;kalau begitu;preposition;/ untuk/ bagi;In this case you are fail to saved many people
+452;Because;karena;preposition;;I'm lucky because I was given the ability to think logically by God
+453;But;tapi;preposition;;"The game was hard, but i enjoyed it as a challange"
+454;When;ketika;preposition;30/09/2025;I was reading a book when you called me
+455;Since;sejak;preposition;;
+456;And;dan;preposition;;
+457;Until;sampai;preposition;/ sehingga;
+458;Till;sampai;preposition;/ sehingga;
+459;Up to;Hingga;preposition;;
+460;Unless;kecuali kalau;preposition;/ kalau tidak;
+461;Whereas;sedangkan;preposition;/ padahal;
+462;So;Oleh karena itu;preposition;;
+463;Both.. and?;baik..;preposition;maupun..;
+464;Not only.. but also;tdk hanya..;preposition;tapi juga..;
+465;If only;seandainya;preposition;;
+466;Supposing/ suppose that;seandainya;preposition;;
+467;Lest;jangan sampai;preposition;/ agar tidak;
+468;If then;jika kemudian;preposition;;
+469;Than;daripada;preposition;;
+470;Whenever;kapanpun;preposition;/ sewaktu-waktu;
+471;Whether;apakah;preposition;;
+472;Nor;maupun;preposition;;
+473;Yet;namun;preposition;/ tapi;
+474;Action;Tindakan;noun;;
+475;Advice;Nasihat;noun;;
+476;Agreement;Perjanjian;noun;;
+477;Air;Udara;noun;;
+478;Airplane;Pesawat Terbang;noun;;
+479;Airport;Bandara;noun;;
+480;Angle;Sudut;noun;;
+481;Animal;Hewan;noun;;
+482;Aunt;Bibi;noun;;
+483;Ball;Bola;noun;;
+484;Banana;Pisang;noun;;
+485;Bed;Tempat Tidur;noun;;
+486;Bedroom;Kamar Tidur;noun;;
+487;Bike;Sepeda;noun;;
+488;Bird;Burung;noun;;
+489;Book;Book;noun;;
+490;Car;Mobil;noun;;
+491;Cat;Kucing;noun;;
+492;Chicken;Ayam;noun;;
+493;Child;Anak;noun;;
+494;Children;Anak-Anak;noun;;
+495;Cigarette;Rokok;noun;;
+496;Circle;Lingkaran;noun;;
+497;Coach;Pelatih;noun;;
+498;College;Perguruan Tinggi;noun;;
+499;Cow;Sapi;noun;;
+500;Desk;Meja Tulis;noun;;
+501;Device;Alat;noun;;
+502;Dinner;Makan Malam;noun;;
+503;Direction;Arah;noun;;
+504;Disease;Penyakit;noun;;
+505;Doll;Boneka;noun;;
+506;Driver;Sopir;noun;;
+507;Earthquake;Gempa Bumi;noun;;
+508;Engine;Mesin;noun;;
+509;Entertainment;Hiburan;noun;;
+510;Father;Ayah;noun;;
+511;Flag;Bendera;noun;;
+512;Food;Makanan;noun;;
+513;Football;Sepak Bola;noun;;
+514;Friendship;Persahabatan;noun;;
+515;Frog;Katak;noun;;
+516;Funeral;Pemakaman;noun;;
+517;Garbage;Sampah;noun;;
+518;Ghost;Hantu;noun;;
+519;Girl;Gadis;noun;;
+520;Gun;Senjata;noun;;
+521;Hall;Aula;noun;;
+522;Hill;Bukit;noun;;
+523;Homework;Pekerjaan Rumah;noun;;
+524;Horse;Kuda;noun;;
+525;Income;Pendapatan;noun;;
+526;Independence;Kemerdekaan;noun;;
+527;Insect;Serangga;noun;;
+528;Island;Pulau;noun;;
+529;Joke;Lelucon;noun;;
+530;King;Raja;noun;;
+531;Kite;Layang-Layang;noun;;
+532;Lamp;Lampu;noun;;
+533;Law;Hukum;noun;;
+534;Lawyer;Pengacara;noun;;
+535;Man;Manusia;noun;;
+536;Mask;Topeng;noun;;
+537;Math;Matematika;noun;;
+538;Month;Bulan;noun;;
+539;Mother;Ibu;noun;;
+540;Movie;Film;noun;;
+541;Night;Malam;noun;;
+542;People;Orang-Orang;noun;;
+543;Personality;Kepribadian;noun;;
+544;Pleasure;Kesenangan;noun;;
+545;Rabbit;Kelinci;noun;;
+546;Road;Jalan;noun;;
+547;Science;Ilmu;noun;;
+548;Snake;Ular;noun;;
+549;Society;Masyarakat;noun;;
+550;Song;Lagu;noun;;
+551;Station;Stasiun;noun;;
+552;Sugar;Gula;noun;;
+553;Summer;Musim Panas;noun;;
+554;Sun;Matahari;noun;;
+555;Table;Meja;noun;;
+556;Tiger;Harimau;noun;;
+557;Town;Kota;noun;;
+558;Underwear;Pakaian Dalam;noun;;
+559;Vacation;Liburan;noun;;
+560;Vehicle;Kendaraan;noun;;
+561;Warning;Peringatan;noun;;
+562;Water;Air;noun;;
+563;Wealth;Kekayaan;noun;;
+564;Week;Minggu;noun;;
+565;Wife;Istri;noun;;
+566;Wood;Kayu;noun;;
+567;Worker;Pekerja;noun;;
+568;Writer;Penulis;noun;;
+569;Year;Tahun;noun;;
+570;I;saya;subject;;
+571;you;kamu;subject/object; / Anda;
+572;she;dia;subject; (perempuan);
+573;it;itu;subject/object; (benda/hewan);
+574;we;kami;subject; / kita;
+575;they;mereka;subject;;
+576;me;saya;object;;
+577;him;dia;object; (laki-laki);
+578;her;dia;object; (perempuan);
+579;us;kami;object; / kita;
+580;them;mereka;object;;
+581;my;saya;adjective;;
+582;your;kamu;adjective; / Anda;
+583;his;dia;adjective; (laki-laki);
+584;its;itu;adjective; (benda/hewan);
+585;our;kami;adjective; / kita;
+586;their;mereka;adjective;;
+587;mine;saya;pronomina;;
+588;yours;kamu;pronomina; / Anda;
+589;hers;dia;pronomina; (perempuan);
+590;ours;kami;pronomina; / kita;
+591;theirs;mereka;pronomina;;
+592;myself;saya;self;;
+593;yourself;kamu;self; / Anda;
+594;himself;dia;self; (laki-laki);
+595;herself;dia;self; (perempuan);
+596;itself;itu;self; (benda/hewan);
+597;ourselves;kami;self; / kita;
+598;themselves;mereka;self;;
+599;this;ini;pronoun; (tunggal/ dekat);
+600;that;itu;pronoun; (tunggal/ jauh);
+601;these;ini;pronoun; (jamak/ dekat);
+602;those;itu;pronoun; (jamak/ jauh);
+603;who;siapa;pronoun;;
+604;whom;siapa;pronoun; (objek);
+605;whose;milik siapa;pronoun;;
+606;what;apa;pronoun;;
+607;which;yang mana;pronoun;;
+608;never;tidak pernah;adverb;;
+609;ever;pernah;adverb;;
+610;often;sering;adverb;;
+611;rarely;Jarang;adverb;;
+612;attitude;sikap;verb;;
+613;approach;Mendekati;preposition;;
+614;Incident;Kejadian;noun;;
+615;boys;anak laki-laki;noun;;
+616;At the moment;Saat ini;;;
+617;that use;yang menggunakan;;;
+618;According to;Menurut;;;
+619;seldom;Jarang;adverb;;
+620;Evidence;Bukti;;;
+621;surroundings;Linkungan;noun;;
+622;evidently;ternyata;adverb;;
+623;thus;hingga;adverb;;
+624;toward;terhadap;;;
+625;excessively;berlebihan;adverb;;
+626;hardly;Hampir tidak;;;
+627;quickly;dengan cepat;adverb;;
+628;slowly;dengan lambat;adverb;;
+629;carefully;dengan hati-hati;adverb;;
+630;badly;dengan buruk;adverb;;
+631;loudly;dengan keras;adverb;;
+632;quietly;dengan pelan;adverb;;
+633;there;di sana;adverb;;
+634;nowhere;tidak di mana pun;adverb;;
+635;outside;di luar;adverb/preposition;;
+636;inside;di dalam;adverb/preposition;;
+637;abroad;di luar negeri;adverb;;
+638;now;sekarang;adverb;;
+639;soon;segera;adverb;;
+640;already;sudah;adverb;;
+641;still;masih;adverb;;
+642;just;baru saja;adverb;;
+643;yesterday;kemarin;adverb;;
+644;today;hari ini;adverb;;
+645;tomorrow;besok;adverb;;
+646;very;sangat;adverb;;
+647;too;terlalu;adverb;;
+648;almost;hampir;adverb;;
+649;quite;cukup/lumayan;adverb;;
+650;extremely;sangat sekali;adverb;;
+651;nearly;hampir;adverb;;
+652;surely;pasti;adverb;;
+653;definitely;benar-benar;adverb;;
+654;certainly;tentu saja;adverb;;
+655;probably;mungkin;adverb;;
+656;perhaps;barangkali;adverb;;
+657;at;di / pada (jam/momen tertentu);preposition;"pada jam dan situasi tertentu(lunch,midnight)";
+658;in;"di dalam / pada (bulan, tahun)";preposition;"pada hari,tanggal,minggu tertentu(monday,July 4th,on the weekday )";
+659;on;"di atas / pada (hari, tanggal)";preposition;"pada bulan, tahun,abad(July,2025,21st),waktu tertentu(the morning)";
+660;under;di bawah;preposition;;
+661;above;di atas (lebih tinggi);preposition;;
+662;below;di bawah (lebih rendah);preposition;;
+663;over;di atas (melewati/menutupi);preposition;;
+664;between;di antara (2 benda);preposition;;
+665;among;di antara (lebih dari 2 benda);preposition;;
+666;in front of;di depan;preposition;;
+667;next to;di samping;preposition;;
+668;near;dekat;preposition;;
+669;into;ke dalam;preposition;;
+670;onto;ke atas;preposition;;
+671;across;melintasi;preposition;melintasi/menyebrangi;
+672;along;sepanjang;preposition;;
+673;toward(s);menuju;preposition;menuju ke arah sesuatu (tanpa harus sampai).;
+674;around;mengelilingi;preposition;;
+675;through;melalui;preposition;;
+676;by;sebelum (waktu) / dengan (cara);preposition;;
+677;during;selama (periode tertentu);preposition;;
+678;until/till;sampai;preposition;;
+679;from;dari;preposition;;
+680;to;sampai ke;preposition;;
+681;with;dengan;preposition;kepemilikan;
+682;about;tentang;preposition;;
+683;of; dari / milik;preposition;kepemilikan;
+684;without;tanpa;preposition;;
+685;as;sebagai;preposition;;
+686;per;per (misalnya per jam);preposition;;
+687;noticed;Memperhatikan;;;
+688;the most out of ores;biji yang paling banyak;;;
+689;furnace;perapian;;;
+690;just so happens;kebetulan saja;;;
+691;smelt;peleburan;;;
+692;crafting;kerajinan;;;
+693;consider;pertimbangkan;;;
+694;take it easy;santai saja;;;
+695;poking arround;menyelidiki;;;
+696;why don't you pay me a visit;kenapa kamu tidak mengunjungiku?;;;
+697;concerning;tentang/mengenai;preposition;;
+698;convenient;nyaman/mudah;;;
+699;arcane;batin/misterius;;;
+700;mediary;perantara;;;
+701;ethereal;sangat halus;;;
+702;foreseen;meramalkan;;;
+703;I'd like ;Aku ingin;;;
+704;have no;tidak punya;;;
+705;shortly;segera;;;
+706;obscure;samar/tersembunyi;;;
+707;aid;bantuan;;;
+708;one with the forest;menyatu dengan hutan;;;
+709;cauldron;kuali/kawah;;;
+710;drink up;minum habis;;;
+711;permeate;menyerap;;;
+712;abysmal;bukan main;;;
+713;remarkable;luar biasa;;;
+714;groundbreaking;inovatif;;;
+715;access;mengakses;verb;;
+716;activate;mengaktifkan;verb;;
+717;allocate;mengalokasikan;verb;;
+718;analyze;menganalisis;verb;;
+719;apply;menerapkan;verb;;
+720;authenticate;mengotentikasi;verb;;
+721;backup;cadangan;verb;;
+722;calculate;menghitung;verb;;
+723;click;mengklik;verb;;
+724;clone;mengkloning;verb;;
+725;compile;mengompilasi;verb;;
+726;compress;memampatkan;verb;;
+727;configure;mengkonfigurasi;verb;;
+728;connect;menghubungkan;verb;;
+729;convert;mengonversi;verb;;
+730;copy;menyalin;verb;;
+731;debug;men-debug;verb;;
+732;decrypt;mendekripsi;verb;;
+733;delete;menghapus;verb;;
+734;deploy;mendistribusikan;verb;;
+735;design;merancang;verb;;
+736;develop;mengembangkan;verb;;
+737;disconnect;memutuskan;verb;;
+738;download;mengunduh;verb;;
+739;edit;mengedit;verb;;
+740;encrypt;mengenkripsi;verb;;
+741;execute;menjalankan;verb;;
+742;export;mengekspor;verb;;
+743;extract;mengekstrak;verb;;
+744;filter;memfilter;verb;;
+745;fix;memperbaiki;verb;;
+746;format;memformat;verb;;
+747;generate;menghasilkan;verb;;
+748;host;host;verb;;
+749;import;mengimpor;verb;;
+750;index;indeks;verb;;
+751;initialize;menginisialisasi;verb;;
+752;install;menginstal;verb;;
+753;integrate;mengintegrasikan;verb;;
+754;link;tautan;verb;;
+755;load;memuat;verb;;
+756;login;masuk;verb;;
+757;logout;keluar;verb;;
+758;maintain;memelihara;verb;;
+759;merge;menggabungkan;verb;;
+760;monitor;memantau;verb;;
+761;move;memindahkan;verb;;
+762;navigate;menavigasi;verb;;
+763;optimize;mengoptimalkan;verb;;
+764;parse;mengurai;verb;;
+765;patch;menambal;verb;;
+766;ping;ping;verb;;
+767;print;mencetak;verb;;
+768;process;proses;verb;;
+769;program;program;verb;;
+770;query;kueri;verb;;
+771;reboot;me-restart;verb;;
+772;recover;memulihkan;verb;;
+773;redirect;mengalihkan;verb;;
+774;refresh;menyegarkan;verb;;
+775;register;mendaftar;verb;;
+776;release;merilis;verb;;
+777;remove;menghapus;verb;;
+778;rename;mengganti nama;verb;;
+779;restore;memulihkan;verb;;
+780;scan;memindai;verb;;
+781;search;mencari;verb;;
+782;select;memilih;verb;;
+783;send;mengirim;verb;;
+784;shutdown;mematikan;verb;;
+785;sort;mengurutkan;verb;;
+786;start;memulai;verb;;
+787;stop;menghentikan;verb;;
+788;store;menyimpan;verb;;
+789;submit;mengirimkan;verb;;
+790;sync;sinkronisasi;verb;;
+791;test;menguji;verb;;
+792;track;melacak;verb;;
+793;transfer;mentransfer;verb;;
+794;transform;mentransformasi;verb;;
+795;uninstall;menghapus instalasi;verb;;
+796;update;pembaruan;verb;;
+797;upgrade;meningkatkan;verb;;
+798;upload;mengunggah;verb;;
+799;validate;memvalidasi;verb;;
+800;verify;memverifikasi;verb;;
+801;account;akun;noun;;
+802;address;alamat;noun;;
+803;administrator;administrator;noun;;
+804;algorithm;algoritma;noun;;
+805;application;aplikasi;noun;;
+806;array;larik;noun;;
+807;bandwidth;bandwidth;noun;;
+808;bit;bit;noun;;
+809;blockchain;blockchain;noun;;
+810;browser;peramban;noun;;
+811;buffer;penyangga;noun;;
+812;byte;byte;noun;;
+813;cache;cache;noun;;
+814;certificate;sertifikat;noun;;
+815;channel;saluran;noun;;
+816;chip;chip;noun;;
+817;cloud;komputasi awan;noun;;
+818;cluster;kluster;noun;;
+819;code;kode;noun;;
+820;command;perintah;noun;;
+821;compiler;kompiler;noun;;
+822;component;komponen;noun;;
+823;computer;komputer;noun;;
+824;configuration;konfigurasi;noun;;
+825;connection;koneksi;noun;;
+826;cookie;cookie;noun;;
+827;cryptography;kriptografi;noun;;
+828;dashboard;dasbor;noun;;
+829;data;data;noun;;
+830;database;basis data;noun;;
+831;dataset;kumpulan data;noun;;
+832;debugger;debugger;noun;;
+833;disk;cakram;noun;;
+834;domain;domain;noun;;
+835;encryption;enkripsi;noun;;
+836;error;kesalahan;noun;;
+837;event;kejadian;noun;;
+838;file;berkas;noun;;
+839;firewall;firewall;noun;;
+840;folder;folder;noun;;
+841;framework;kerangka kerja;noun;;
+842;function;fungsi;noun;;
+843;gateway;gerbang;noun;;
+844;graph;grafik;noun;;
+845;hardware;perangkat keras;noun;;
+846;hash;hash;noun;;
+847;hyperlink;tautan;noun;;
+848;input;masukan;noun;;
+849;instance;instans;noun;;
+850;interface;antarmuka;noun;;
+851;internet;internet;noun;;
+852;iteration;iterasi;noun;;
+853;kernel;kernel;noun;;
+854;key;kunci;noun;;
+855;keyword;kata kunci;noun;;
+856;list;daftar;noun;;
+857;log;log;noun;;
+858;loop;perulangan;noun;;
+859;machine;mesin;noun;;
+860;macro;makro;noun;;
+861;malware;malware;noun;;
+862;memory;memori;noun;;
+863;message;pesan;noun;;
+864;metadata;metadata;noun;;
+865;method;metode;noun;;
+866;module;modul;noun;;
+867;network;jaringan;noun;;
+868;node;node;noun;;
+869;object;objek;noun;;
+870;operator;operator;noun;;
+871;output;keluaran;noun;;
+872;package;paket;noun;;
+873;parameter;parameter;noun;;
+874;password;kata sandi;noun;;
+875;platform;platform;noun;;
+876;pointer;penunjuk;noun;;
+877;port;port;noun;;
+878;protocol;protokol;noun;;
+879;queue;antrian;noun;;
+880;record;rekaman;noun;;
+881;repository;repositori;noun;;
+882;request;permintaan;noun;;
+883;resource;sumber daya;noun;;
+884;response;respon;noun;;
+885;router;router;noun;;
+886;script;skrip;noun;;
+887;server;server;noun;;
+888;service;layanan;noun;;
+889;session;sesi;noun;;
+890;shell;shell;noun;;
+891;site;situs;noun;;
+892;software;perangkat lunak;noun;;
+893;stack;tumpukan;noun;;
+894;statement;pernyataan;noun;;
+895;storage;penyimpanan;noun;;
+896;string;string;noun;;
+897;structure;struktur;noun;;
+898;syntax;sintaks;noun;;
+899;system;sistem;noun;;
+900;tag;tag;noun;;
+901;thread;benang;noun;;
+902;token;token;noun;;
+903;tool;alat;noun;;
+904;transaction;transaksi;noun;;
+905;url;url;noun;;
+906;user;pengguna;noun;;
+907;variable;variabel;noun;;
+908;version;versi;noun;;
+909;virtualization;virtualisasi;noun;;
+910;virus;virus;noun;;
+911;web;web;noun;;
+912;website;situs web;noun;;
+913;back up;mencadangkan;phrasal verb;;
+914;boot up;menyalakan (komputer);phrasal verb;;
+915;break down;rusak;phrasal verb;;
+916;build up;membangun;phrasal verb;;
+917;call up;memanggil;phrasal verb;;
+918;carry out;melaksanakan;phrasal verb;;
+919;check in;mendaftar masuk;phrasal verb;;
+920;check out;memeriksa/keluar;phrasal verb;;
+921;clean up;membersihkan;phrasal verb;;
+922;close down;menutup (selamanya);phrasal verb;;
+923;come across;menemukan secara tidak sengaja;phrasal verb;;
+924;connect to;terhubung ke;phrasal verb;;
+925;cut off;terputus;phrasal verb;;
+926;deal with;menangani;phrasal verb;;
+927;figure out;memahami;phrasal verb;;
+928;find out;mengetahui;phrasal verb;;
+929;get back;kembali;phrasal verb;;
+930;get into;masuk;phrasal verb;;
+931;go back;kembali;phrasal verb;;
+932;go down;mati (server);phrasal verb;;
+933;hack into;meretas;phrasal verb;;
+934;hand over;menyerahkan;phrasal verb;;
+935;hook up;menyambungkan;phrasal verb;;
+936;keep up;terus mengikuti;phrasal verb;;
+937;log in;masuk;phrasal verb;;
+938;log off;keluar;phrasal verb;;
+939;log out;keluar;phrasal verb;;
+940;look after;mengurus;phrasal verb;;
+941;look for;mencari;phrasal verb;;
+942;look into;menyelidiki;phrasal verb;;
+943;open up;membuka;phrasal verb;;
+944;pick up;mengambil;phrasal verb;;
+945;plug in;menyambungkan;phrasal verb;;
+946;point out;menunjukkan;phrasal verb;;
+947;print out;mencetak;phrasal verb;;
+948;pull down;merobohkan;phrasal verb;;
+949;pull out;menarik keluar;phrasal verb;;
+950;put in;memasukkan;phrasal verb;;
+951;put out;memadamkan;phrasal verb;;
+952;roll out;meluncurkan;phrasal verb;;
+953;run into;bertemu/bertabrakan;phrasal verb;;
+954;set up;mengatur;phrasal verb;;
+955;shut down;mematikan;phrasal verb;;
+956;sign in;masuk;phrasal verb;;
+957;sign out;keluar;phrasal verb;;
+958;sort out;menyelesaikan;phrasal verb;;
+959;speed up;mempercepat;phrasal verb;;
+960;start up;menyalakan;phrasal verb;;
+961;switch off;mematikan;phrasal verb;;
+962;switch on;menyalakan;phrasal verb;;
+963;take apart;membongkar;phrasal verb;;
+964;take down;menurunkan;phrasal verb;;
+965;take over;mengambil alih;phrasal verb;;
+966;test out;menguji;phrasal verb;;
+967;turn off;mematikan;phrasal verb;;
+968;turn on;menyalakan;phrasal verb;;
+969;use up;menghabiskan;phrasal verb;;
+970;wipe out;menghapus;phrasal verb;;
+971;work on;mengerjakan;phrasal verb;;
+972;work out;menyelesaikan;phrasal verb;;
+973;write down;menuliskan;phrasal verb;;
+974;against;(preposisi) against;preposition;;
+975;beneath;(preposisi) beneath;preposition;;
+976;beyond;(preposisi) beyond;preposition;;
+977;down;(preposisi) down;preposition;;
+978;except;(preposisi) except;preposition;;
+979;off;(preposisi) off;preposition;;
+980;out;(preposisi) out;preposition;;
+981;past;(preposisi) past;preposition;;
+982;regarding;(preposisi) regarding;preposition;;
+983;round;(preposisi) round;preposition;;
+984;throughout;(preposisi) throughout;preposition;;
+985;underneath;(preposisi) underneath;preposition;;
+986;up;(preposisi) up;preposition;;
+987;upon;(preposisi) upon;preposition;;
+988;versus;(preposisi) versus;preposition;;
+989;via;(preposisi) via;preposition;;
+990;within;(preposisi) within;preposition;;
