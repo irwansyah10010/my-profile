@@ -27,7 +27,7 @@ no;english;artinya;jenis_prepos;;Kalimat;;;;;;;;;;
 26;since;sejak;waktu;;;;;;;;;;;;
 27;for;selama / untuk;waktu/cara;;;;;;;;;;into ? ke dalam (fokus pada arah masuk).;;
 28;during;selama (periode tertentu);waktu;;;;;;;;;;onto ? ke atas (fokus pada arah naik/menempel di atas sesuatu).;;
-29;until/till;sampai;waktu;;;;;;;;;;across ? melintasi/menyeberangi.;;
+29;until/till;sampai;waktu/tindakan(till);;;;;;;;;;across ? melintasi/menyeberangi.;;
 30;from;dari;waktu/arah;;;;;;;;;;"along ? sepanjang (searah dengan sesuatu, misalnya jalan/pantai).";;
 31;to;sampai ke;arah/waktu;;;;;;;;;;toward(s) ? menuju ke arah sesuatu (tanpa harus sampai).;;
 32;with;dengan;cara/alat;;;;;;;;;;;;
