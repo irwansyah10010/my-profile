@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
@@ -22,7 +25,7 @@
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero section-fade-in">
         <div class="hero-text">
             <h1>App need debug if Error</h1>
             <p>I’m a motivated and tech-savvy individual with a strong passion for IT. Over the past three years, I’ve gained solid experience in object-oriented programming, mainly using Java, and developed practical skills in SOA principles while working with webMethods Integration Server and API Gateway.</p>
@@ -38,7 +41,7 @@
         </div>
     </section>
 
-    <section class="journey-experience">
+    <section class="journey-experience section-fade-in">
         <div class="journey" id="journey">
             <div class="journey-image">
                 <img src="assets/img/journey/my-journey.png" alt="Journey image">
@@ -106,5 +109,31 @@
     <footer>
         Copyright &copy; 2025 Irwansyah. All rights reserved.
     </footer>
+
+    <script>
+        // Script untuk animasi fade-in saat scroll
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.section-fade-in');
+
+            const observerOptions = {
+                root: null, // viewport
+                rootMargin: '0px',
+                threshold: 0.1 // 10% dari section harus terlihat
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target); // Berhenti mengamati setelah terlihat
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
 </body>
 </html>
