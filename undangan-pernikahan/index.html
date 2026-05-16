@@ -21,10 +21,35 @@
             background-color: #fcfbfa;
             line-height: 1.6;
             text-align: center;
+            overflow: hidden; /* Dikunci agar tidak bisa di-scroll sebelum undangan dibuka */
         }
         .serif {
             font-family: 'Great Vibes', cursive;
             color: #b38f4f;
+        }
+
+        /* --------------------------------------
+           FITUR SAMPUL / COVER OVERLAY
+        ----------------------------------------- */
+        #welcome-cover {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.85)), url('https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+            padding: 20px;
+        }
+        #welcome-cover.opened {
+            transform: translateY(-100vh); /* Transisi bergeser ke atas */
+            opacity: 0;
+            pointer-events: none;
         }
 
         /* Hero / Cover Section */
@@ -37,7 +62,7 @@
             background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.8)), url('https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200') no-repeat center center/cover;
             padding: 20px;
         }
-        header h1 {
+        header h1, #welcome-cover h1 {
             font-size: 3.5rem;
             margin-bottom: 10px;
         }
@@ -46,8 +71,9 @@
             padding: 20px 30px;
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-            margin-top: 30px;
+            margin: 25px 0;
             max-width: 400px;
+            width: 100%;
             border: 1px solid #f0e6d2;
         }
         .tamu-box p {
@@ -56,11 +82,33 @@
             text-transform: uppercase;
             letter-spacing: 2px;
         }
-        #nama-tamu {
+        .nama-tamu-text {
             font-size: 1.4rem;
             font-weight: 600;
             color: #222;
             margin-top: 5px;
+        }
+
+        /* --------------------------------------
+           TOMBOL MUSIK FLOATING
+        ----------------------------------------- */
+        #music-control-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #b38f4f;
+            color: white;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            font-size: 1.2rem;
+            z-index: 999;
+            display: none; /* Muncul setelah tombol buka undangan diklik */
+            align-items: center;
+            justify-content: center;
         }
 
         /* Section General Style */
@@ -191,7 +239,7 @@
             margin-top: 20px;
         }
         .gift-cards-wrapper {
-            display: none; /* Sembunyikan default sebelum diklik */
+            display: none; 
             flex-direction: column;
             gap: 20px;
             margin-top: 30px;
@@ -209,7 +257,7 @@
         .bank-logo {
             font-weight: 600;
             font-size: 1.2rem;
-            color: #1e3a8a; /* Warna khas perbankan */
+            color: #1e3a8a; 
             letter-spacing: 1px;
             margin-bottom: 10px;
         }
@@ -292,16 +340,43 @@
 </head>
 <body>
 
-    <!-- COVER / HERO SECTION -->
+    <!-- 1. COVER OVERLAY INTERAKTIF -->
+    <div id="welcome-cover">
+        <p style="letter-spacing: 5px; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 10px;">The Wedding of</p>
+        <h1 class="serif" style="font-size: 3rem;">Irwansyah & Chairani</h1>
+        
+        <div class="tamu-box">
+            <p>Kepada Yth. Chat/Ibu/Saudara/i:</p>
+            <div class="nama-tamu-text var-nama-tamu">Nama Tamu</div>
+        </div>
+
+        <p style="font-size: 0.8rem; color: #666; margin-bottom: 15px;">*Mohon maaf apabila ada kesalahan penulisan nama/gelar</p>
+        <button class="btn-general" onclick="bukaUndangan()">✉️ Buka Undangan</button>
+    </div>
+
+    <!-- AUDIO ELEMENT BACKSOUND -->
+    <!-- Kamu bisa letakkan file musik .mp3 di folder yang sama di github lalu panggil nama filenya di src -->
+    <audio id="backsound" loop>
+        <source src="../assets/music/invitation-wedding.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+
+    <!-- FLOATING AUDIO CONTROLLER -->
+    <button id="music-control-btn" onclick="toggleMusik()">🎵</button>
+
+
+    <!-- MAIN CONTENT UNDANGAN -->
+
+    <!-- HERO SECTION -->
     <header>
         <p style="letter-spacing: 5px; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 10px;">The Wedding of</p>
         <h1 class="serif">Irwansyah & Chairani</h1>
         <p style="font-weight: 600; letter-spacing: 2px; color: #555;">WAN & RANI</p>
         
-        <!-- Kotak Nama Tamu Dinamis -->
+        <!-- Kotak Nama Tamu Dinamis Halaman Utama -->
         <div class="tamu-box">
-            <p>Kepada Yth. Bapak/Ibu/Saudara/i:</p>
-            <div id="nama-tamu">Nama Tamu</div>
+            <p>Selamat Datang,</p>
+            <div class="nama-tamu-text var-nama-tamu">Nama Tamu</div>
         </div>
     </header>
 
@@ -358,11 +433,11 @@
         
         <div class="acara-box">
             <div class="waktu">
-                Pukul 10.00 WIB s/d Selesai
+                Pukul 09.00 WIB s/d Selesai
             </div>
             <p class="alamat">
                 <b>Lokasi Acara:</b><br>
-                Jln. Sederhana, Tembung, Kec. Percut Sei Tuan, Kab. Deli Serdang, Sumatera Utara
+                Jln. Sederhana, Gang Cempaka 3, Tembung, Kec. Percut Sei Tuan, Kab. Deli Serdang, Sumatera Utara
             </p>
 
             <!-- PETA LANGSUNG -->
@@ -389,19 +464,19 @@
             <!-- Bagian Rekening (Akan muncul ketika tombol di atas diklik) -->
             <div class="gift-cards-wrapper" id="gift-content">
                 
-                <!-- Rekening 1 (Contoh Bank Mandiri / Bank Pilihan) -->
+                <!-- Rekening 1 -->
                 <div class="bank-card">
                     <div class="bank-logo" style="color: #1d4ed8;">BANK MANDIRI</div>
-                    <p class="rekening-num" id="rek-wan">1234567890</p>
-                    <p style="font-size: 0.9rem; color: #555;">a.n. Irwansyah</p>
+                    <p class="rekening-num" id="rek-wan">1760004413025</p>
+                    <p style="font-size: 0.9rem; color: #ff6702; font-weight: 600;">a.n. Irwansyah</p>
                     <button class="btn-general btn-copy" onclick="salinNoRek('rek-wan', this)">📋 Salin No. Rekening</button>
                 </div>
 
-                <!-- Rekening 2 (Contoh Bank Syariah / Pilihan Pasangan) -->
+                <!-- Rekening 2 -->
                 <div class="bank-card">
-                    <div class="bank-logo" style="color: #0f766e;">BANK SYARIAH INDONESIA (BSI)</div>
-                    <p class="rekening-num" id="rek-rani">9876543210</p>
-                    <p style="font-size: 0.9rem; color: #555;">a.n. Chairani</p>
+                    <div class="bank-logo" style="color: #e65305;">SEABANK</div>
+                    <p class="rekening-num" id="rek-rani">901306181417</p>
+                    <p style="font-size: 0.9rem; color: #555; font-weight: 600;">a.n. Chairani</p>
                     <button class="btn-general btn-copy" onclick="salinNoRek('rek-rani', this)">📋 Salin No. Rekening</button>
                 </div>
 
@@ -416,8 +491,37 @@
 
     <!-- SCRIPT UTAMA -->
     <script>
+        const audioMusik = document.getElementById("backsound");
+        const tombolMusik = document.getElementById("music-control-btn");
+
+        // FUNGSI MEMBUKA COVER & TRIGER PLAY AUDIO
+        function bukaUndangan() {
+            document.getElementById("welcome-cover").classList.add("opened");
+            document.body.style.overflow = "auto"; // Buka kunci scroll halaman utama
+            
+            audioMusik.play().then(() => {
+                tombolMusik.style.display = "flex"; 
+            }).catch(error => {
+                console.log("Autoplay diblokir browser, menunggu interaksi manual.");
+                tombolMusik.style.display = "flex";
+            });
+        }
+
+        // FUNGSI PLAY/PAUSE MUSIK MANUAL
+        function toggleMusik() {
+            if (audioMusik.paused) {
+                audioMusik.play();
+                tombolMusik.innerHTML = "🎵";
+                tombolMusik.style.background = "#b38f4f";
+            } else {
+                audioMusik.pause();
+                tombolMusik.innerHTML = "🔇";
+                tombolMusik.style.background = "#666";
+            }
+        }
+
         // 1. PENGATURAN TANGGAL ACARA (Target Hitung Mundur)
-        const tanggalAcara = new Date("June 14, 2026 10:00:00").getTime();
+        const tanggalAcara = new Date("June 14, 2026 09:00:00").getTime();
 
         const hitungMundur = setInterval(function() {
             const sekarang = new Date().getTime();
@@ -440,18 +544,22 @@
         }, 1000);
 
 
-        // 2. LOGIK NAMA TAMU DARI URL PARAMETER
+        // 2. LOGIK NAMA TAMU DARI URL PARAMETER (DIPERBARUI UNTUK SEBANYAK ELEMEN .var-nama-tamu)
         function getQueryParam(param) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(param);
         }
 
         const tamu = getQueryParam('to');
-        if (tamu) {
-            document.getElementById('nama-tamu').innerText = decodeURIComponent(tamu);
-        } else {
-            document.getElementById('nama-tamu').innerText = "Teman-teman & Kerabat";
-        }
+        const elemenTamu = document.querySelectorAll('.var-nama-tamu');
+        
+        elemenTamu.forEach(el => {
+            if (tamu) {
+                el.innerText = decodeURIComponent(tamu);
+            } else {
+                el.innerText = "Teman-teman & Kerabat";
+            }
+        });
 
 
         // 3. LOGIK SHOW/HIDE AMPLOP DIGITAL
@@ -467,14 +575,11 @@
 
         // 4. LOGIK SALIN NOMOR REKENING OTOMATIS
         function salinNoRek(idElemen, button) {
-            // Ambil nomor rekening dari teks HTML
             const noRek = document.getElementById(idElemen).innerText;
             
-            // Menyalin teks ke Clipboard menggunakan Clipboard API bawaan browser modern
             navigator.clipboard.writeText(noRek).then(() => {
-                // Mengubah teks tombol sementara waktu untuk feedback visual ke user
                 const teksAwal = button.innerHTML;
-                button.innerHTML = "✅ Berhasil Disalin!";
+                button.innerHTML = "Berhasil Disalin!";
                 button.style.backgroundColor = "#10b981";
                 button.style.color = "#fff";
 
